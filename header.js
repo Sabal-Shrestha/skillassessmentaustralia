@@ -65,19 +65,19 @@ class MyHeader extends HTMLElement {
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/anzsco-codes.html">ANZSCO Codes</a>
+            <a class="nav-link" href="anzsco-codes.html">ANZSCO Codes</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/blogs.html">Blogs</a>
+            <a class="nav-link" href="blogs.html">Blogs</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/cdr-samples.html">CDR Samples</a>
+            <a class="nav-link" href="cdr-samples.html">CDR Samples</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/pricing.html">Pricing</a>
+            <a class="nav-link" href="pricing.html">Pricing</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/contact.html">Contact</a>
+            <a class="nav-link" href="contact.html">Contact</a>
           </li>
           <li class="nav-item">
             <a class="btn-all" type="button" onclick="Chatra('openChat', true)">Chat</a>
