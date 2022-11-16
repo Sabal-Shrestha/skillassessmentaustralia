@@ -39,27 +39,27 @@ class MyHeader extends HTMLElement {
               </li>
               <li>
                 <a class="dropdown-item" href="cdr-report-writing.html"
-                  >CDR Report Writing</a
+                  >Career Episodes</a
                 >
               </li>
               <li>
                 <a class="dropdown-item" href="cdr-report-writing.html"
-                  >CDR Report Writing</a
+                  >Summary Statement</a
                 >
               </li>
               <li>
                 <a class="dropdown-item" href="cdr-report-writing.html"
-                  >CDR Report Writing</a
+                  >CPD</a
                 >
               </li>
               <li>
                 <a class="dropdown-item" href="cdr-report-writing.html"
-                  >CDR Report Writing</a
+                  >ACS RPL Report</a
                 >
               </li>
               <li>
                 <a class="dropdown-item" href="cdr-report-writing.html"
-                  >CDR Report Writing</a
+                  >KA02 Report</a
                 >
               </li>
             </ul>

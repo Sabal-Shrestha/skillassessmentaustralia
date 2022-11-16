@@ -107,6 +107,9 @@ class MyFooter extends HTMLElement {
               <i class="bi-linkedin"></i>
               <i class="bi-whatsapp"></i>
             </p>
+            <p>
+            Email: info@skillassessmentaustralia.com
+            </p>
           </div>
         </div>
       </div>
@@ -117,41 +120,36 @@ class MyFooter extends HTMLElement {
           <div class="col">
             <h4>Services</h4>
             <ul>
-              <li>CDR Report</li>
-              <li>CDR Report</li>
-              <li>CDR Report</li>
-              <li>CDR Report</li>
-              <li>CDR Report</li>
-              <li>CDR Report</li>
+              <li><a href="">CDR Report Writing</a></li>
+              <li><a href="">Career Episodes</a></li>
+              <li><a href="">Summary Statement</a></li>
+              <li><a href="">CPD</a></li>
+              <li><a href="">ACS RPL Report</a></li>
+              <li><a href="">KA02 Report</a></li>
+              <li><a href="">CPD</a></li>
             </ul>
           </div>
           <div class="col">
             <h4>Useful Links</h4>
             <ul>
-              <li>CDR Report</li>
-              <li>CDR Report</li>
-              <li>CDR Report</li>
-              <li>CDR Report</li>
-              <li>CDR Report</li>
-              <li>CDR Report</li>
-              <li>CDR Report</li>
+            <li><a href="">Home</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">ANZSCO Codes</a></li>
+            <li><a href="">Blogs</a></li>
+            <li><a href="">CDR Samples</a></li>
+            <li><a href="">Pricing</a></li>
+            <li><a href="">Contact </a></li>
             </ul>
           </div>
           <div class="col-md-12 col-lg-6">
             <h4>Recent Blogs</h4>
             <ul>
-              <li>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Obcaecati animi corporis hic minima, odit voluptate numquam
-              </li>
-              <li>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Obcaecati animi corporis hic minima, odit voluptate numquam
-              </li>
-              <li>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Obcaecati animi corporis hic minima, odit voluptate numquam
-              </li>
+            <li><a href="">Why does Engineers choose us for CDR Report Writing? </a></li>
+            <li><a href="">Why does Engineers choose us for CDR Report Writing? </a></li>
+            <li><a href="">Why does Engineers choose us for CDR Report Writing? </a></li>
+            <li><a href="">Why does Engineers choose us for CDR Report Writing? </a></li>
+            <li><a href="">Why does Engineers choose us for CDR Report Writing? </a></li>
+            <li><a href="">Why does Engineers choose us for CDR Report Writing? </a></li>
             </ul>
           </div>
         </div>
