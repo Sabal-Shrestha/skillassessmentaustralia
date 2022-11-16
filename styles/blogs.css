@@ -1,0 +1,20 @@
+#blogs .card {
+  position: relative;
+}
+#blogs .card .card-body .blog-author i {
+  margin-left: 1rem;
+}
+
+#single-post {
+  text-align: center;
+}
+#single-post .blog-author i {
+  margin-left: 1rem;
+}
+#single-post article h2,
+#single-post article h3,
+#single-post article h4,
+#single-post article h5,
+#single-post article h6 {
+  text-align: start;
+}/*# sourceMappingURL=blogs.css.map */

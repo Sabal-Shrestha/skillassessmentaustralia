@@ -1,0 +1,117 @@
+#index #hero {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  height: 93vh;
+  background: linear-gradient(to bottom, #eeeff5 0%, #eeeff5 80%, #0d6efd 80%, #0d6efd 100%);
+  background-size: cover;
+}
+#index #hero #hero-top {
+  padding: 0;
+  margin: 0;
+  margin-bottom: auto;
+}
+#index #hero #hero-top .container > .row {
+  height: 55vh;
+}
+#index #hero #hero-top .container > .row ul {
+  -moz-columns: 2;
+       columns: 2;
+}
+#index #hero #hero-bottom {
+  padding: 0;
+  margin: 0;
+}
+#index #hero #hero-bottom .container > .row {
+  height: 38vh;
+}
+#index #hero #hero-bottom .container > .row .card {
+  text-align: center;
+  padding: 1rem;
+  border: none;
+}
+#index #hero #hero-bottom .container > .row .card p {
+  color: #000;
+  text-align: center;
+  font-weight: 600;
+  font-size: clamp(1.8rem, 1.5vw, 2.7rem);
+}
+#index #hero #hero-bottom .container > .row .card .form-control {
+  font-size: clamp(1.6rem, 1.5vw, 1.8rem);
+  margin-top: 1rem;
+  border-radius: 0;
+}
+#index #hero #hero-bottom .container > .row .card textarea {
+  resize: none;
+}
+@media screen and (max-width: 991px) {
+  #index #hero {
+    height: auto;
+  }
+  #index #hero #hero-top .container > .row {
+    height: auto;
+  }
+  #index #hero #hero-top .container > .row ul {
+    -moz-columns: 1;
+         columns: 1;
+  }
+  #index #hero #hero-bottom .container > .row {
+    height: auto;
+  }
+}
+#index .call-to-action {
+  background-image: url("../img/call-to-action.webp");
+  text-align: center;
+}
+#index .call-to-action p {
+  text-align: center;
+}
+#index #how-it-works-top {
+  background-color: #0d6efd;
+  color: #fff;
+  padding-bottom: 0;
+}
+#index #how-it-works-bottom {
+  padding-top: 0;
+}
+#index #how-it-works-bottom .nav-link {
+  background-color: #0d6efd;
+}
+#index #how-it-works-bottom .nav-tabs .nav-link.active {
+  background-color: #fff;
+  color: #000;
+}
+#index #how-it-works-bottom .nav-tabs .nav-link {
+  color: #fff;
+  border-radius: 0px;
+}
+#index #testimonials .card {
+  text-align: center;
+}
+#index #testimonials .card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 10rem;
+  margin: 1.5rem 0;
+}
+#index #testimonials .card h4 {
+  color: grey;
+  margin-bottom: 1rem;
+}
+#index #testimonials .card i {
+  color: #ffa534;
+}
+#index #testimonials .card p {
+  margin-top: 1rem;
+}
+#index #index-services .card {
+  position: relative;
+  text-align: center;
+}
+#index #index-services .card img {
+  width: 200px;
+}
+#index #faq .accordion-item .accordion-header .accordion-button {
+  font-size: clamp(1.8rem, 1.5vw, 2.7rem);
+}/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,65 @@
+#other-pages {
+  #banner {
+    padding-bottom: 0;
+    background: url("../img/banner-new.webp");
+    background-size: cover;
+    color: #fff;
+    .card {
+      text-align: center;
+      padding: 1rem;
+      padding-bottom: 0;
+      border: none;
+      p {
+        color: #000;
+        text-align: center;
+        font-weight: 600;
+        font-size: clamp(1.8rem, 1.5vw, 2.7rem);
+      }
+      .form-control {
+        font-size: clamp(1.6rem, 1.5vw, 1.8rem);
+        margin-top: 1rem;
+        border-radius: 0;
+      }
+      textarea {
+        resize: none;
+      }
+    }
+  }
+  #breadcrumbs {
+    padding: 0;
+  }
+  #samples {
+    text-align: center;
+    form {
+      text-align: center;
+      .form-control {
+        font-size: clamp(1.6rem, 1.5vw, 1.8rem);
+        margin-top: 1rem;
+        border-radius: 0;
+      }
+      textarea {
+        resize: none;
+      }
+    }
+    .modal-content {
+      border-radius: 0;
+    }
+  }
+  #pricing {
+    table {
+      margin: 1.5rem 0;
+    }
+  }
+  #anzsco-code {
+    table {
+      thead {
+        font-size: clamp(1.8rem, 1.5vw, 2.7rem);
+      }
+      tbody {
+        font-size: clamp(1.6rem, 1.5vw, 1.8rem);
+      }
+    }
+  }
+  // #contact-us {
+  // }
+}

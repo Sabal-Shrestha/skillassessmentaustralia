@@ -1,0 +1,29 @@
+#blogs {
+  .card {
+    position: relative;
+    .card-body {
+      .blog-author {
+        i {
+          margin-left: 1rem;
+        }
+      }
+    }
+  }
+}
+#single-post {
+  text-align: center;
+  .blog-author {
+    i {
+      margin-left: 1rem;
+    }
+  }
+  article {
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      text-align: start;
+    }
+  }
+}

@@ -1,0 +1,55 @@
+#other-pages #banner {
+  padding-bottom: 0;
+  background: url("../img/banner-new.webp");
+  background-size: cover;
+  color: #fff;
+}
+#other-pages #banner .card {
+  text-align: center;
+  padding: 1rem;
+  padding-bottom: 0;
+  border: none;
+}
+#other-pages #banner .card p {
+  color: #000;
+  text-align: center;
+  font-weight: 600;
+  font-size: clamp(1.8rem, 1.5vw, 2.7rem);
+}
+#other-pages #banner .card .form-control {
+  font-size: clamp(1.6rem, 1.5vw, 1.8rem);
+  margin-top: 1rem;
+  border-radius: 0;
+}
+#other-pages #banner .card textarea {
+  resize: none;
+}
+#other-pages #breadcrumbs {
+  padding: 0;
+}
+#other-pages #samples {
+  text-align: center;
+}
+#other-pages #samples form {
+  text-align: center;
+}
+#other-pages #samples form .form-control {
+  font-size: clamp(1.6rem, 1.5vw, 1.8rem);
+  margin-top: 1rem;
+  border-radius: 0;
+}
+#other-pages #samples form textarea {
+  resize: none;
+}
+#other-pages #samples .modal-content {
+  border-radius: 0;
+}
+#other-pages #pricing table {
+  margin: 1.5rem 0;
+}
+#other-pages #anzsco-code table thead {
+  font-size: clamp(1.8rem, 1.5vw, 2.7rem);
+}
+#other-pages #anzsco-code table tbody {
+  font-size: clamp(1.6rem, 1.5vw, 1.8rem);
+}/*# sourceMappingURL=other-pages.css.map */
