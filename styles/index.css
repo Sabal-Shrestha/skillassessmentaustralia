@@ -1,62 +1,60 @@
 #index #hero {
-  display: flex;
-  flex-direction: column;
   padding: 0;
   margin: 0;
   height: 93vh;
-  background: linear-gradient(to bottom, #eeeff5 0%, #eeeff5 80%, #0d6efd 80%, #0d6efd 100%);
+  background: url("../img/hero-banner-new.webp");
   background-size: cover;
 }
-#index #hero #hero-top {
-  padding: 0;
-  margin: 0;
-  margin-bottom: auto;
+#index #hero > .container {
+  height: 70vh;
 }
-#index #hero #hero-top .container > .row {
-  height: 55vh;
-}
-#index #hero #hero-top .container > .row ul {
+#index #hero > .container ul {
   -moz-columns: 2;
        columns: 2;
 }
-#index #hero #hero-bottom {
-  padding: 0;
-  margin: 0;
-}
-#index #hero #hero-bottom .container > .row {
-  height: 38vh;
-}
-#index #hero #hero-bottom .container > .row .card {
+#index #hero > .container .card {
   text-align: center;
   padding: 1rem;
+  padding-bottom: 0;
   border: none;
 }
-#index #hero #hero-bottom .container > .row .card p {
+#index #hero > .container .card p {
   color: #000;
   text-align: center;
   font-weight: 600;
   font-size: clamp(1.8rem, 1.5vw, 2.7rem);
 }
-#index #hero #hero-bottom .container > .row .card .form-control {
+#index #hero > .container .card .form-control {
   font-size: clamp(1.6rem, 1.5vw, 1.8rem);
   margin-top: 1rem;
   border-radius: 0;
 }
-#index #hero #hero-bottom .container > .row .card textarea {
+#index #hero > .container .card textarea {
   resize: none;
+}
+#index #hero .container-fluid {
+  height: calc(100% - 70vh);
+  background-color: #0d6efd;
+}
+#index #hero .container-fluid .row .col {
+  text-align: center;
+  color: #fff;
+}
+#index #hero .container-fluid .row .col p {
+  text-align: center;
 }
 @media screen and (max-width: 991px) {
   #index #hero {
     height: auto;
   }
-  #index #hero #hero-top .container > .row {
+  #index #hero > .container {
     height: auto;
   }
-  #index #hero #hero-top .container > .row ul {
+  #index #hero > .container ul {
     -moz-columns: 1;
          columns: 1;
   }
-  #index #hero #hero-bottom .container > .row {
+  #index #hero .container-fluid {
     height: auto;
   }
 }
