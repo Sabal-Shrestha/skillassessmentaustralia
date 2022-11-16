@@ -4,7 +4,7 @@ class MyHeader extends HTMLElement {
 <header class="sticky-top d-lg-flex align-items-lg-center">
 <div class="container">
   <nav class="navbar navbar-expand-lg">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="index.html">Navbar</a>
         <button
           class="navbar-toggler"
           type="button"
