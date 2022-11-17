@@ -36,7 +36,7 @@ p {
 a {
   text-decoration: none;
   color: $primary-color;
-  transition: color 0.3s ease-in-out;
+  transition: color 0.5s ease-in-out;
   &:hover {
     color: $accent-color;
   }
@@ -85,7 +85,7 @@ img {
   color: #fff;
   background-color: $btn-color;
   margin: 1rem 0 0;
-  transition: background-color 0.3s ease-in-out, color 0.3s;
+  transition: background-color 0.5s ease-in-out, color 0.5s;
   &:hover {
     color: #fff;
     background-color: $accent-color;

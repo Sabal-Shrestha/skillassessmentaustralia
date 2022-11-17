@@ -1,5 +1,5 @@
 footer {
-  a {
+  a:not(.btn-all) {
     position: relative;
     color: #fff;
     &:hover {
@@ -37,6 +37,7 @@ footer {
       width: 5rem;
       height: 5rem;
       border-radius: 5rem;
+      transition: background-color 0.3s ease-in-out;
       &:hover {
         background: #5fcf80;
         color: #fff;
@@ -101,7 +102,6 @@ footer {
         }
         .card-body {
           background-image: url("../../img/whatsapp-bg.webp");
-
           .text-box {
             text-align: start;
             width: 100%;
@@ -110,27 +110,26 @@ footer {
             background-color: #fff;
             font-size: clamp(1.3rem, 1.5vw, 1.5rem);
             border-radius: 1rem;
-
             @media (min-width: 992px) {
               width: 60%;
             }
-
             span {
               color: #868686;
               font-weight: 500;
             }
           }
         }
-
         .card-footer {
           background-color: #fff;
           border: none;
           a {
             width: 100%;
+            text-align: center;
           }
           .btn-all {
             margin: 0.6rem 0rem;
             background-color: #24c254;
+            background-image: none;
             color: #ffffff;
             padding: 0.8rem 1.2rem;
             width: 100%;

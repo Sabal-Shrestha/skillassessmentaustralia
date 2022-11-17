@@ -100,7 +100,7 @@ p {
 a {
   text-decoration: none;
   color: #5c9dff;
-  transition: color 0.3s ease-in-out;
+  transition: color 0.5s ease-in-out;
 }
 a:hover {
   color: #044fbf;
@@ -158,7 +158,7 @@ img {
   color: #fff;
   background-color: #0d6efd;
   margin: 1rem 0 0;
-  transition: background-color 0.3s ease-in-out, color 0.3s;
+  transition: background-color 0.5s ease-in-out, color 0.5s;
 }
 .btn-all:hover {
   color: #fff;
@@ -174,14 +174,14 @@ img {
   border-radius: 0;
 }
 
-footer a {
+footer a:not(.btn-all) {
   position: relative;
   color: #fff;
 }
-footer a:hover {
+footer a:not(.btn-all):hover {
   color: #fff;
 }
-footer a::before {
+footer a:not(.btn-all)::before {
   content: "";
   position: absolute;
   display: block;
@@ -193,7 +193,7 @@ footer a::before {
   transform: scaleX(0);
   transition: transform 0.3s ease;
 }
-footer a:hover::before {
+footer a:not(.btn-all):hover::before {
   transform: scaleX(1);
 }
 footer #floating-whatsapp {
@@ -213,6 +213,7 @@ footer #floating-whatsapp .whatsapp-btn {
   width: 5rem;
   height: 5rem;
   border-radius: 5rem;
+  transition: background-color 0.3s ease-in-out;
 }
 footer #floating-whatsapp .whatsapp-btn:hover {
   background: #5fcf80;
@@ -301,10 +302,12 @@ footer #floating-whatsapp .whatsapp-card .card .card-footer {
 }
 footer #floating-whatsapp .whatsapp-card .card .card-footer a {
   width: 100%;
+  text-align: center;
 }
 footer #floating-whatsapp .whatsapp-card .card .card-footer .btn-all {
   margin: 0.6rem 0rem;
   background-color: #24c254;
+  background-image: none;
   color: #ffffff;
   padding: 0.8rem 1.2rem;
   width: 100%;

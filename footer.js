@@ -43,10 +43,10 @@ class MyFooter extends HTMLElement {
                 <a
                   href="https://api.whatsapp.com/send?phone=61480005454&text=Hello,%20Can%20you%20please%20provide%20me%20more%20information?"
                   target="_blank"
-                  ><button class="btn-all">
+                  class="btn-all"
+                  >
                     <i class="bi-whatsapp me-2"></i>Start Chat
-                  </button></a
-                >
+                  </a>
               </div>
             </div>
           </div>
