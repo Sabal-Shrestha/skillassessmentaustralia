@@ -60,7 +60,11 @@ class MyFooter extends HTMLElement {
             <div class="card">
               <div class="card-body">
                 <form action="">
-                  <p>Get Skill Assessment</p>
+                <p>Get Skill Assessment</p>
+                <div class="input-group">
+                  <span class="input-group-text">
+                    <i class="bi-person"></i>
+                  </span>
                   <input
                     type="text"
                     class="form-control"
@@ -68,6 +72,11 @@ class MyFooter extends HTMLElement {
                     placeholder="Your Name"
                     required
                   />
+                </div>
+                <div class="input-group">
+                  <span class="input-group-text">
+                    <i class="bi-phone"></i>
+                  </span>
                   <input
                     type="tel"
                     class="form-control"
@@ -75,21 +84,33 @@ class MyFooter extends HTMLElement {
                     placeholder="Your Number"
                     required
                   />
+                </div>
+                <div class="input-group">
+                  <span class="input-group-text">
+                    <i class="bi-envelope"></i>
+                  </span>
                   <input
                     type="email"
                     class="form-control"
                     name="email"
-                    placeholder="Your Name"
+                    placeholder="Your Email"
                     required
                   />
+                </div>
+                <div class="input-group">
+                  <span class="input-group-text">
+                    <i class="bi-check2-square"></i>
+                  </span>
                   <textarea
-                    name=""
                     name="message"
                     class="form-control"
                     placeholder="Message"
                   ></textarea>
-                  <button class="btn-all">Submit</button>
-                </form>
+                </div>
+                <button class="btn-all">
+                  Submit <i class="bi-send"> </i>
+                </button>
+              </form>
               </div>
             </div>
           </div>
@@ -120,25 +141,25 @@ class MyFooter extends HTMLElement {
           <div class="col">
             <h4>Services</h4>
             <ul>
-              <li><a href="">CDR Report Writing</a></li>
-              <li><a href="">Career Episodes</a></li>
-              <li><a href="">Summary Statement</a></li>
-              <li><a href="">CPD</a></li>
-              <li><a href="">ACS RPL Report</a></li>
-              <li><a href="">KA02 Report</a></li>
-              <li><a href="">CPD</a></li>
+              <li><a href="services.html">All Services</a></li>
+              <li><a href="cdr-report-writing.html">CDR Report Writing</a></li>
+              <li><a href="career-episode.html">Career Episodes</a></li>
+              <li><a href="summary-statement.html">Summary Statement</a></li>
+              <li><a href="cpd.html">CPD</a></li>
+              <li><a href="acs-rpl.html">ACS RPL Report</a></li>
+              <li><a href="ka02.html">KA02 Report</a></li>
             </ul>
           </div>
           <div class="col">
             <h4>Useful Links</h4>
             <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">Services</a></li>
-            <li><a href="">ANZSCO Codes</a></li>
-            <li><a href="">Blogs</a></li>
-            <li><a href="">CDR Samples</a></li>
-            <li><a href="">Pricing</a></li>
-            <li><a href="">Contact </a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="anzsco-codes.html">ANZSCO Codes</a></li>
+            <li><a href="blogs.html">Blogs</a></li>
+            <li><a href="cdr-samples.html">CDR Samples</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+            <li><a href="contact.html">Contact</a></li>
             </ul>
           </div>
           <div class="col-md-12 col-lg-6">

@@ -33,32 +33,37 @@ class MyHeader extends HTMLElement {
             </a>
             <ul class="dropdown-menu">
               <li>
+                <a class="dropdown-item" href="services.html"
+                  >All Services</a
+                >
+              </li>
+              <li>
                 <a class="dropdown-item" href="cdr-report-writing.html"
                   >CDR Report Writing</a
                 >
               </li>
               <li>
-                <a class="dropdown-item" href="cdr-report-writing.html"
+                <a class="dropdown-item" href="career-episode.html"
                   >Career Episodes</a
                 >
               </li>
               <li>
-                <a class="dropdown-item" href="cdr-report-writing.html"
+                <a class="dropdown-item" href="summary-statement.html"
                   >Summary Statement</a
                 >
               </li>
               <li>
-                <a class="dropdown-item" href="cdr-report-writing.html"
+                <a class="dropdown-item" href="cpd.html"
                   >CPD</a
                 >
               </li>
               <li>
-                <a class="dropdown-item" href="cdr-report-writing.html"
+                <a class="dropdown-item" href="acs-rpl.html"
                   >ACS RPL Report</a
                 >
               </li>
               <li>
-                <a class="dropdown-item" href="cdr-report-writing.html"
+                <a class="dropdown-item" href="ka02.html"
                   >KA02 Report</a
                 >
               </li>
@@ -80,7 +85,7 @@ class MyHeader extends HTMLElement {
             <a class="nav-link" href="contact.html">Contact</a>
           </li>
           <li class="nav-item">
-            <a class="btn-all" type="button" onclick="Chatra('openChat', true)">Chat</a>
+            <a class="btn-all" type="button" onclick="Chatra('openChat', true)"><i class="bi-wechat"> </i> Chat</a>
           </li>
         </ul>
       </div>

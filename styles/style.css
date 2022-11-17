@@ -11,11 +11,30 @@ header .navbar-toggler .bi-list {
   color: #fff;
 }
 header .nav-item {
-  margin-left: 1.7rem;
+  margin-left: 2rem;
   font-size: clamp(1.6rem, 1.5vw, 1.8rem);
 }
 header .nav-item .nav-link {
+  position: relative;
   color: #fff;
+}
+header .nav-item .nav-link:hover {
+  color: #fff;
+}
+header .nav-item .nav-link::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+header .nav-item .nav-link:hover::before {
+  transform: scaleX(1);
 }
 header .nav-item .btn-all {
   margin: 0;
@@ -81,6 +100,7 @@ p {
 a {
   text-decoration: none;
   color: #5c9dff;
+  transition: color 0.3s ease-in-out;
 }
 a:hover {
   color: #044fbf;
@@ -88,7 +108,7 @@ a:hover {
 
 li {
   line-height: 1.7;
-  font-size: clamp(1.6rem, 1.5vw, 2rem);
+  font-size: clamp(1.6rem, 1.5vw, 1.8rem);
 }
 
 h1 {
@@ -138,7 +158,7 @@ img {
   color: #fff;
   background-color: #0d6efd;
   margin: 1rem 0 0;
-  transition: background-color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out, color 0.3s;
 }
 .btn-all:hover {
   color: #fff;
@@ -154,6 +174,28 @@ img {
   border-radius: 0;
 }
 
+footer a {
+  position: relative;
+  color: #fff;
+}
+footer a:hover {
+  color: #fff;
+}
+footer a::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+footer a:hover::before {
+  transform: scaleX(1);
+}
 footer #floating-whatsapp {
   margin: 0;
   padding: 0;
@@ -289,13 +331,24 @@ footer #contact-form .card p {
   font-weight: 600;
   font-size: clamp(1.8rem, 1.5vw, 2.7rem);
 }
-footer #contact-form .card .form-control {
-  font-size: clamp(1.6rem, 1.5vw, 1.8rem);
+footer #contact-form .card .input-group {
   margin-top: 1rem;
+}
+footer #contact-form .card .input-group .input-group-text {
+  background-color: #fff;
+  color: #5c9dff;
+  border-radius: 0;
+}
+footer #contact-form .card .input-group i {
+  font-size: clamp(1.6rem, 1.5vw, 1.8rem);
+}
+footer #contact-form .card .input-group .form-control {
+  font-size: clamp(1.6rem, 1.5vw, 1.8rem);
   border-radius: 0;
 }
 footer #contact-form .card textarea {
   resize: none;
+  height: 8rem;
 }
 footer #contact-form p {
   margin-top: 1rem;
@@ -305,9 +358,6 @@ footer #contact-form p i {
 }
 footer #useful-links {
   background-color: #044fbf;
-  color: #fff;
-}
-footer #useful-links a {
   color: #fff;
 }
 footer #copyright {

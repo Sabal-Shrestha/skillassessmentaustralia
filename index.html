@@ -43,34 +43,55 @@
                 <div class="card-body">
                   <form action="">
                     <p>Get Skill Assessment</p>
-                    <input
-                      type="text"
-                      class="form-control"
-                      name="name"
-                      placeholder="Your Name"
-                      required
-                    />
-                    <input
-                      type="tel"
-                      class="form-control"
-                      name="phone"
-                      placeholder="Your Number"
-                      required
-                    />
-                    <input
-                      type="email"
-                      class="form-control"
-                      name="email"
-                      placeholder="Your Name"
-                      required
-                    />
-                    <textarea
-                      name=""
-                      name="message"
-                      class="form-control"
-                      placeholder="Message"
-                    ></textarea>
-                    <button class="btn-all">Submit</button>
+                    <div class="input-group">
+                      <span class="input-group-text">
+                        <i class="bi-person"></i>
+                      </span>
+                      <input
+                        type="text"
+                        class="form-control"
+                        name="name"
+                        placeholder="Your Name"
+                        required
+                      />
+                    </div>
+                    <div class="input-group">
+                      <span class="input-group-text">
+                        <i class="bi-phone"></i>
+                      </span>
+                      <input
+                        type="tel"
+                        class="form-control"
+                        name="phone"
+                        placeholder="Your Number"
+                        required
+                      />
+                    </div>
+                    <div class="input-group">
+                      <span class="input-group-text">
+                        <i class="bi-envelope"></i>
+                      </span>
+                      <input
+                        type="email"
+                        class="form-control"
+                        name="email"
+                        placeholder="Your Email"
+                        required
+                      />
+                    </div>
+                    <div class="input-group">
+                      <span class="input-group-text">
+                        <i class="bi-check2-square"></i>
+                      </span>
+                      <textarea
+                        name="message"
+                        class="form-control"
+                        placeholder="Message"
+                      ></textarea>
+                    </div>
+                    <button class="btn-all">
+                      Submit <i class="bi-send"> </i>
+                    </button>
                   </form>
                 </div>
               </div>
@@ -81,20 +102,48 @@
           <div class="container">
             <div class="row row-cols-2 row-cols-md-4">
               <div class="col">
-                <h2>6000+</h2>
+                <p class="counter-numbers">
+                  <span
+                    data-purecounter-start="0"
+                    data-purecounter-end="900"
+                    class="purecounter"
+                  ></span
+                  >+
+                </p>
                 <p>Reports Written</p>
               </div>
               <div class="col">
-                <h2>6000+</h2>
-                <p>Reports Written</p>
+                <p class="counter-numbers">
+                  <span
+                    data-purecounter-start="0"
+                    data-purecounter-end="40"
+                    class="purecounter"
+                  ></span
+                  >+
+                </p>
+                <p>Engineering Experts</p>
               </div>
               <div class="col">
-                <h2>6000+</h2>
-                <p>Reports Written</p>
+                <p class="counter-numbers">
+                  <span
+                    data-purecounter-start="0"
+                    data-purecounter-end="99"
+                    class="purecounter"
+                  ></span
+                  >%
+                </p>
+                <p>Success Rate</p>
               </div>
               <div class="col">
-                <h2>6000+</h2>
-                <p>Reports Written</p>
+                <p class="counter-numbers">
+                  <span
+                    data-purecounter-start="0"
+                    data-purecounter-end="750"
+                    class="purecounter"
+                  ></span
+                  >+
+                </p>
+                <p>Happy Clients</p>
               </div>
             </div>
           </div>
@@ -128,10 +177,11 @@
                 <h2>Why Choose Us</h2>
               </div>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
-                obcaecati voluptatum perspiciatis ullam repellendus porro dolor,
-                ipsam voluptatem maxime nostrum, harum minima, molestiae illum
-                ducimus quas. Repudiandae quasi consequuntur quidem?
+                Lorem ipsum dolor sit <a href="">herllo</a> amet consectetur
+                adipisicing elit. Unde obcaecati voluptatum perspiciatis ullam
+                repellendus porro dolor, ipsam voluptatem maxime nostrum, harum
+                minima, molestiae illum ducimus quas. Repudiandae quasi
+                consequuntur quidem?
               </p>
             </div>
             <div class="col-12 col-md-6 col-lg-4 mx-auto order-2 order-lg-1">
@@ -353,8 +403,8 @@
             <h2>What Our Clients Say?</h2>
           </div>
           <div class="row g-4 row-cols-1 row-cols-md-2 row-cols-lg-4">
-            <div class="col">
-              <div class="card">
+            <div class="col d-flex">
+              <div class="card flex-fill">
                 <div class="card-body">
                   <img src="./img/sahid-bafar.webp" alt="" />
                   <h3>Sahid Bafar</h3>
@@ -369,15 +419,12 @@
                   <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
                     totam autem saepe enim assumenda corrupti eveniet molestiae
-                    laudantium esse, incidunt placeat, tenetur corporis
-                    architecto dolorem dignissimos distinctio labore commodi.
-                    Doloremque?
                   </p>
                 </div>
               </div>
             </div>
-            <div class="col">
-              <div class="card">
+            <div class="col d-flex">
+              <div class="card flex-fill">
                 <div class="card-body">
                   <img src="./img/luke-emia.webp" alt="" />
                   <h3>Luke Emia</h3>
@@ -399,8 +446,8 @@
                 </div>
               </div>
             </div>
-            <div class="col">
-              <div class="card">
+            <div class="col d-flex">
+              <div class="card flex-fill">
                 <div class="card-body">
                   <img src="./img/preeti-gupta.webp" alt="" />
                   <h3>Preeti Gupta</h3>
@@ -422,8 +469,8 @@
                 </div>
               </div>
             </div>
-            <div class="col">
-              <div class="card">
+            <div class="col d-flex">
+              <div class="card flex-fill">
                 <div class="card-body">
                   <img src="./img/chelsea-white.webp" alt="" />
                   <h3>Chelsea White</h3>
@@ -470,8 +517,8 @@
             <h2>Services</h2>
           </div>
           <div class="row g-4 row-cols-1 row-cols-md-2 row-cols-lg-3">
-            <div class="col">
-              <div class="card">
+            <div class="col d-flex">
+              <div class="card flex-fill">
                 <div class="card-body">
                   <img src="./img/cdr-report.webp" alt="" />
                   <h3>CDR Report Writing</h3>
@@ -482,12 +529,12 @@
                     exercitationem aliquam enim eos quibusdam unde cum incidunt
                     ratione?
                   </p>
-                  <a href="index.html" class="stretched-link"></a>
+                  <a href="index.html" class="stretched-link">Learn More >></a>
                 </div>
               </div>
             </div>
-            <div class="col">
-              <div class="card">
+            <div class="col d-flex">
+              <div class="card flex-fill">
                 <div class="card-body">
                   <img src="./img/career-episodes.webp" alt="" />
                   <h3>Career Episodes</h3>
@@ -498,12 +545,12 @@
                     exercitationem aliquam enim eos quibusdam unde cum incidunt
                     ratione?
                   </p>
-                  <a href="index.html" class="stretched-link"></a>
+                  <a href="index.html" class="stretched-link">Learn More >></a>
                 </div>
               </div>
             </div>
-            <div class="col">
-              <div class="card">
+            <div class="col d-flex">
+              <div class="card flex-fill">
                 <div class="card-body">
                   <img src="./img/summary-statement.webp" alt="" />
                   <h3>Summary Statement</h3>
@@ -514,12 +561,12 @@
                     exercitationem aliquam enim eos quibusdam unde cum incidunt
                     ratione?
                   </p>
-                  <a href="index.html" class="stretched-link"></a>
+                  <a href="index.html" class="stretched-link">Learn More >></a>
                 </div>
               </div>
             </div>
-            <div class="col">
-              <div class="card">
+            <div class="col d-flex">
+              <div class="card flex-fill">
                 <div class="card-body">
                   <img src="./img/cpd.webp" alt="" />
                   <h3>CPD</h3>
@@ -530,12 +577,12 @@
                     exercitationem aliquam enim eos quibusdam unde cum incidunt
                     ratione?
                   </p>
-                  <a href="index.html" class="stretched-link"></a>
+                  <a href="index.html" class="stretched-link">Learn More >></a>
                 </div>
               </div>
             </div>
-            <div class="col">
-              <div class="card">
+            <div class="col d-flex">
+              <div class="card flex-fill">
                 <div class="card-body">
                   <img src="./img/acs.webp" alt="" />
                   <h3>ACS RPL Report</h3>
@@ -546,12 +593,12 @@
                     exercitationem aliquam enim eos quibusdam unde cum incidunt
                     ratione?
                   </p>
-                  <a href="index.html" class="stretched-link"></a>
+                  <a href="index.html" class="stretched-link">Learn More >></a>
                 </div>
               </div>
             </div>
-            <div class="col">
-              <div class="card">
+            <div class="col d-flex">
+              <div class="card flex-fill">
                 <div class="card-body">
                   <img src="./img/ka02.webp" alt="" />
                   <h3>KA02 Report</h3>
@@ -562,7 +609,7 @@
                     exercitationem aliquam enim eos quibusdam unde cum incidunt
                     ratione?
                   </p>
-                  <a href="index.html" class="stretched-link"></a>
+                  <a href="index.html" class="stretched-link">Learn More >></a>
                 </div>
               </div>
             </div>
@@ -728,11 +775,15 @@
     <my-footer></my-footer>
     <script src="./header.js"></script>
     <script src="./footer.js"></script>
-    <script src="./main.js"></script>
+    <script type="text/javascript" src="./main.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdn.jsdelivr.net/npm/@srexi/purecounterjs@1.5.0/dist/purecounter.min.js"></script>
+    <script>
+      new PureCounter();
+    </script>
   </body>
 </html>

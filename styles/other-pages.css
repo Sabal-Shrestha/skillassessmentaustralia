@@ -2,6 +2,7 @@
   padding-bottom: 0;
   background: url("../img/banner-new.webp");
   background-size: cover;
+  background-repeat: no-repeat;
   color: #fff;
 }
 #other-pages #banner .card {
@@ -16,16 +17,30 @@
   font-weight: 600;
   font-size: clamp(1.8rem, 1.5vw, 2.7rem);
 }
-#other-pages #banner .card .form-control {
-  font-size: clamp(1.6rem, 1.5vw, 1.8rem);
+#other-pages #banner .card .input-group {
   margin-top: 1rem;
+}
+#other-pages #banner .card .input-group .input-group-text {
+  background-color: #fff;
+  color: #5c9dff;
+  border-radius: 0;
+}
+#other-pages #banner .card .input-group i {
+  font-size: clamp(1.6rem, 1.5vw, 1.8rem);
+}
+#other-pages #banner .card .input-group .form-control {
+  font-size: clamp(1.6rem, 1.5vw, 1.8rem);
   border-radius: 0;
 }
 #other-pages #banner .card textarea {
   resize: none;
+  height: 8rem;
 }
 #other-pages #breadcrumbs {
   padding: 0;
+}
+#other-pages #services .row {
+  align-items: center;
 }
 #other-pages #samples {
   text-align: center;

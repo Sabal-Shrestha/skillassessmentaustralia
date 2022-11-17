@@ -1,17 +1,9 @@
 @import "./variables";
 #index {
   #hero {
-    // display: flex;
     padding: 0;
     margin: 0;
     height: $hero-height;
-    // background: linear-gradient(
-    //   to bottom,
-    //   #eeeff5 0%,
-    //   #eeeff5 80%,
-    //   $primary-color 80%,
-    //   $primary-color 100%
-    // );
     background: url("../img/hero-banner-new.webp");
     background-size: cover;
     > .container {
@@ -28,15 +20,26 @@
           color: #000;
           text-align: center;
           font-weight: 600;
-          font-size: clamp(1.8rem, 1.5vw, 2.7rem);
+          font-size: $h4-font-size;
         }
-        .form-control {
-          font-size: clamp(1.6rem, 1.5vw, 1.8rem);
+        .input-group {
           margin-top: 1rem;
-          border-radius: 0;
+          .input-group-text {
+            background-color: #fff;
+            color: $primary-color;
+            border-radius: 0;
+          }
+          i {
+            font-size: $p-font-size;
+          }
+          .form-control {
+            font-size: $p-font-size;
+            border-radius: 0;
+          }
         }
         textarea {
           resize: none;
+          height: 8rem;
         }
       }
     }
@@ -49,6 +52,10 @@
           color: #fff;
           p {
             text-align: center;
+          }
+          .counter-numbers {
+            font-size: $h2-font-size;
+            font-weight: 600;
           }
         }
       }
@@ -68,10 +75,11 @@
     }
   }
   .call-to-action {
-    // background-color: $secondary-color;
-    background-image: url("../img/call-to-action.webp");
+    background: url("../img/call-to-action.webp") 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
     text-align: center;
-
+    color: #fff;
     p {
       text-align: center;
       margin-bottom: 1rem;
@@ -120,17 +128,20 @@
     }
   }
   #index-services {
+    text-align: center;
     .card {
       position: relative;
       img {
         width: 200px;
       }
-      text-align: center;
+      p {
+        margin: 1.5rem 0;
+      }
     }
   }
   #faq {
     .accordion-item .accordion-header .accordion-button {
-      font-size: clamp(1.8rem, 1.5vw, 2.7rem);
+      font-size: $h4-font-size;
     }
   }
 }

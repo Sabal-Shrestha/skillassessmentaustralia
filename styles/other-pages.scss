@@ -1,8 +1,10 @@
+@import "./variables";
 #other-pages {
   #banner {
     padding-bottom: 0;
     background: url("../img/banner-new.webp");
     background-size: cover;
+    background-repeat: no-repeat;
     color: #fff;
     .card {
       text-align: center;
@@ -13,27 +15,43 @@
         color: #000;
         text-align: center;
         font-weight: 600;
-        font-size: clamp(1.8rem, 1.5vw, 2.7rem);
+        font-size: $h4-font-size;
       }
-      .form-control {
-        font-size: clamp(1.6rem, 1.5vw, 1.8rem);
+      .input-group {
         margin-top: 1rem;
-        border-radius: 0;
+        .input-group-text {
+          background-color: #fff;
+          color: $primary-color;
+          border-radius: 0;
+        }
+        i {
+          font-size: $p-font-size;
+        }
+        .form-control {
+          font-size: $p-font-size;
+          border-radius: 0;
+        }
       }
       textarea {
         resize: none;
+        height: 8rem;
       }
     }
   }
   #breadcrumbs {
     padding: 0;
   }
+  #services {
+    .row {
+      align-items: center;
+    }
+  }
   #samples {
     text-align: center;
     form {
       text-align: center;
       .form-control {
-        font-size: clamp(1.6rem, 1.5vw, 1.8rem);
+        font-size: $p-font-size;
         margin-top: 1rem;
         border-radius: 0;
       }
@@ -53,10 +71,10 @@
   #anzsco-code {
     table {
       thead {
-        font-size: clamp(1.8rem, 1.5vw, 2.7rem);
+        font-size: $h4-font-size;
       }
       tbody {
-        font-size: clamp(1.6rem, 1.5vw, 1.8rem);
+        font-size: $p-font-size;
       }
     }
   }
