@@ -1,11 +1,7 @@
-header .sticky-top {
-  position: fixed !important;
-}
-
 #index #hero {
   padding: 0;
   margin: 0;
-  height: 100vh;
+  height: 92.5vh;
   background: url("../img/hero-banner-new.webp");
   background-size: cover;
 }
@@ -128,9 +124,6 @@ header .sticky-top {
 }
 #index #index-services {
   text-align: center;
-}
-#index #index-services .carousel .carousel-inner .carousel-item {
-  position: relative;
 }
 #index #index-services .carousel .carousel-inner .carousel-item .carousel-caption {
   background-color: rgba(255, 255, 255, 0.5);

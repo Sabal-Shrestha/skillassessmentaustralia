@@ -1,7 +1,5 @@
 @import "./variables";
-header .sticky-top {
-  position: fixed !important;
-}
+
 #index {
   #hero {
     padding: 0;
@@ -135,7 +133,6 @@ header .sticky-top {
     .carousel {
       .carousel-inner {
         .carousel-item {
-          position: relative;
           .carousel-caption {
             background-color: rgb(255, 255, 255, 0.5);
             color: #000;
@@ -148,6 +145,7 @@ header .sticky-top {
       .carousel-control-next,
       .carousel-control-prev {
         width: 6rem;
+
         .carousel-control-next-icon,
         .carousel-control-prev-icon {
           display: inline-block;
