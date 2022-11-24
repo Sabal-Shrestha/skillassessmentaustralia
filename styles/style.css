@@ -273,7 +273,7 @@ footer #floating-whatsapp .whatsapp-card .card .card-header .chat-person p {
   text-align: left;
 }
 footer #floating-whatsapp .whatsapp-card .card .card-body {
-  background-image: url("../../img/whatsapp-bg.webp");
+  background-image: url("../img/whatsapp-bg.webp");
 }
 footer #floating-whatsapp .whatsapp-card .card .card-body .text-box {
   text-align: start;
