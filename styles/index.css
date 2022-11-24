@@ -1,7 +1,11 @@
+header .sticky-top {
+  position: fixed !important;
+}
+
 #index #hero {
   padding: 0;
   margin: 0;
-  height: 93vh;
+  height: 100vh;
   background: url("../img/hero-banner-new.webp");
   background-size: cover;
 }

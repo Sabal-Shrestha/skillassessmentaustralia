@@ -1,6 +1,6 @@
 header {
   background-color: $primary-color;
-  height: $header-height;
+  height: auto;
   .navbar-toggler {
     border-color: #fff;
     .bi-list {
@@ -50,7 +50,6 @@ header {
   }
 
   @media (max-width: 991px) {
-    height: auto;
     .nav-item {
       margin-left: 0;
     }
