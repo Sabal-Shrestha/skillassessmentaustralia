@@ -129,14 +129,29 @@ header .sticky-top {
 #index #index-services {
   text-align: center;
 }
-#index #index-services .card {
+#index #index-services .carousel .carousel-inner .carousel-item {
   position: relative;
 }
-#index #index-services .card img {
-  width: 200px;
+#index #index-services .carousel .carousel-inner .carousel-item .carousel-caption {
+  background-color: rgba(255, 255, 255, 0.5);
+  color: #000;
 }
-#index #index-services .card p {
-  margin: 1.5rem 0;
+#index #index-services .carousel .carousel-inner .carousel-item .carousel-caption p {
+  text-align: center;
+}
+#index #index-services .carousel .carousel-control-next,
+#index #index-services .carousel .carousel-control-prev {
+  width: 6rem;
+}
+#index #index-services .carousel .carousel-control-next .carousel-control-next-icon,
+#index #index-services .carousel .carousel-control-next .carousel-control-prev-icon,
+#index #index-services .carousel .carousel-control-prev .carousel-control-next-icon,
+#index #index-services .carousel .carousel-control-prev .carousel-control-prev-icon {
+  display: inline-block;
+  background-color: rgba(30, 30, 30, 0.5);
+  min-height: 4rem;
+  min-width: 4rem;
+  border-radius: 50%;
 }
 #index #faq .accordion-item .accordion-header .accordion-button {
   font-size: clamp(1.8rem, 1.5vw, 2.7rem);
