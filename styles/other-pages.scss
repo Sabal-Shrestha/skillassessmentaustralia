@@ -46,23 +46,6 @@
       align-items: center;
     }
   }
-  #samples {
-    text-align: center;
-    form {
-      text-align: center;
-      .form-control {
-        font-size: $p-font-size;
-        margin-top: 1rem;
-        border-radius: 0;
-      }
-      textarea {
-        resize: none;
-      }
-    }
-    .modal-content {
-      border-radius: 0;
-    }
-  }
   #pricing {
     table {
       margin: 1.5rem 0;

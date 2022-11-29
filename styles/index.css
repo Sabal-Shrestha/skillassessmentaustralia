@@ -6,37 +6,40 @@
 #index #hero .container .row {
   padding: 0;
 }
-#index #hero .container .row ul {
+#index #hero .container .row .col-12 > * {
+  margin-bottom: 2rem;
+}
+#index #hero .container .row .col-12 ul {
   -moz-columns: 2;
        columns: 2;
 }
-#index #hero .container .row .card {
+#index #hero .container .row .col-12 .card {
   text-align: center;
   padding: 1rem;
   border: none;
 }
-#index #hero .container .row .card p {
+#index #hero .container .row .col-12 .card p {
   color: #000;
   text-align: center;
   font-weight: 600;
   font-size: clamp(1.8rem, 1.5vw, 2.7rem);
 }
-#index #hero .container .row .card .input-group {
+#index #hero .container .row .col-12 .card .input-group {
   margin-top: 1rem;
 }
-#index #hero .container .row .card .input-group .input-group-text {
+#index #hero .container .row .col-12 .card .input-group .input-group-text {
   background-color: #fff;
   color: #5c9dff;
   border-radius: 0;
 }
-#index #hero .container .row .card .input-group i {
+#index #hero .container .row .col-12 .card .input-group i {
   font-size: clamp(1.6rem, 1.5vw, 1.8rem);
 }
-#index #hero .container .row .card .input-group .form-control {
+#index #hero .container .row .col-12 .card .input-group .form-control {
   font-size: clamp(1.6rem, 1.5vw, 1.8rem);
   border-radius: 0;
 }
-#index #hero .container .row .card textarea {
+#index #hero .container .row .col-12 .card textarea {
   resize: none;
   height: 8rem;
 }
@@ -60,6 +63,17 @@
     -moz-columns: 1;
          columns: 1;
   }
+}
+#index #why-us .row:nth-of-type(2) .col {
+  text-align: center;
+  display: flex;
+}
+#index #why-us .row:nth-of-type(2) .col .card i {
+  color: #5c9dff;
+  font-size: clamp(2.5rem, 2.3vw, 4.5rem);
+}
+#index #why-us .row:nth-of-type(2) .col .card h3 {
+  margin: 1rem 0;
 }
 #index .call-to-action {
   background: url("../img/call-to-action.webp") 50% 50%;

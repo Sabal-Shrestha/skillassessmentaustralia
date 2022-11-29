@@ -157,7 +157,6 @@ class MyFooter extends HTMLElement {
             <li><a href="services.html">Services</a></li>
             <li><a href="anzsco-codes.html">ANZSCO Codes</a></li>
             <li><a href="blogs.html">Blogs</a></li>
-            <li><a href="cdr-samples.html">CDR Samples</a></li>
             <li><a href="pricing.html">Pricing</a></li>
             <li><a href="contact.html">Contact</a></li>
             </ul>

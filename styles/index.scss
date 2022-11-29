@@ -82,40 +82,44 @@
     background: url("../img/hero-banner-new.webp");
     padding: 0;
     .container {
-      // padding: 5rem 0;
       .row {
         padding: 0;
-        ul {
-          columns: 2;
-        }
-        .card {
-          text-align: center;
-          padding: 1rem;
-          border: none;
-          p {
-            color: #000;
+        .col-12 {
+          > * {
+            margin-bottom: 2rem;
+          }
+          ul {
+            columns: 2;
+          }
+          .card {
             text-align: center;
-            font-weight: 600;
-            font-size: $h4-font-size;
-          }
-          .input-group {
-            margin-top: 1rem;
-            .input-group-text {
-              background-color: #fff;
-              color: $primary-color;
-              border-radius: 0;
+            padding: 1rem;
+            border: none;
+            p {
+              color: #000;
+              text-align: center;
+              font-weight: 600;
+              font-size: $h4-font-size;
             }
-            i {
-              font-size: $p-font-size;
+            .input-group {
+              margin-top: 1rem;
+              .input-group-text {
+                background-color: #fff;
+                color: $primary-color;
+                border-radius: 0;
+              }
+              i {
+                font-size: $p-font-size;
+              }
+              .form-control {
+                font-size: $p-font-size;
+                border-radius: 0;
+              }
             }
-            .form-control {
-              font-size: $p-font-size;
-              border-radius: 0;
+            textarea {
+              resize: none;
+              height: 8rem;
             }
-          }
-          textarea {
-            resize: none;
-            height: 8rem;
           }
         }
       }
@@ -145,7 +149,23 @@
       }
     }
   }
-
+  #why-us {
+    .row:nth-of-type(2) {
+      .col {
+        text-align: center;
+        display: flex;
+        .card {
+          i {
+            color: $primary-color;
+            font-size: $h2-font-size;
+          }
+          h3 {
+            margin: 1rem 0;
+          }
+        }
+      }
+    }
+  }
   .call-to-action {
     background: url("../img/call-to-action.webp") 50% 50%;
     background-size: cover;

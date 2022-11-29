@@ -76,9 +76,6 @@ class MyHeader extends HTMLElement {
             <a class="nav-link" href="blogs.html">Blogs</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="cdr-samples.html">CDR Samples</a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link" href="pricing.html">Pricing</a>
           </li>
           <li class="nav-item">

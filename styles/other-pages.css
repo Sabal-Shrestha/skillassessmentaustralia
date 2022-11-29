@@ -42,23 +42,6 @@
 #other-pages #services .row {
   align-items: center;
 }
-#other-pages #samples {
-  text-align: center;
-}
-#other-pages #samples form {
-  text-align: center;
-}
-#other-pages #samples form .form-control {
-  font-size: clamp(1.6rem, 1.5vw, 1.8rem);
-  margin-top: 1rem;
-  border-radius: 0;
-}
-#other-pages #samples form textarea {
-  resize: none;
-}
-#other-pages #samples .modal-content {
-  border-radius: 0;
-}
 #other-pages #pricing table {
   margin: 1.5rem 0;
 }
