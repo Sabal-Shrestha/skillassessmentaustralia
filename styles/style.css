@@ -4,6 +4,9 @@ header {
   background-color: #5c9dff;
   height: auto;
 }
+header p {
+  margin-bottom: 0;
+}
 header .navbar-toggler {
   border-color: #fff;
 }
@@ -140,7 +143,7 @@ h5 {
 }
 
 h6 {
-  font-size: clamp(1.6rem, 1.5vw, 2rem);
+  font-size: clamp(1.6rem, 1.4vw, 2rem);
   font-weight: 400;
 }
 
@@ -175,6 +178,9 @@ img {
   border-radius: 0;
 }
 
+footer p {
+  margin-bottom: 0;
+}
 footer a:not(.btn-all) {
   position: relative;
   color: #fff;

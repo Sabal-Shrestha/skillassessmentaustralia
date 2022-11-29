@@ -1,82 +1,5 @@
 @import "./variables";
-
 #index {
-  // #hero {
-  //   padding: 0;
-  //   margin: 0;
-  //   height: $hero-height;
-  //   background: url("../img/Australia.png") 0% 70%;
-  //   background-size: cover;
-  //   > .container {
-  //     height: 70vh;
-  //     height: $hero-height;
-  //     display: flex;
-  //     align-items: center;
-  //     ul {
-  //       columns: 2;
-  //     }
-  // .card {
-  //   text-align: center;
-  //   padding: 1rem;
-  //   padding-bottom: 0;
-  //   border: none;
-  //   p {
-  //     color: #000;
-  //     text-align: center;
-  //     font-weight: 600;
-  //     font-size: $h4-font-size;
-  //   }
-  //   .input-group {
-  //     margin-top: 1rem;
-  //     .input-group-text {
-  //       background-color: #fff;
-  //       color: $primary-color;
-  //       border-radius: 0;
-  //     }
-  //     i {
-  //       font-size: $p-font-size;
-  //     }
-  //     .form-control {
-  //       font-size: $p-font-size;
-  //       border-radius: 0;
-  //     }
-  //   }
-  //   textarea {
-  //     resize: none;
-  //     height: 8rem;
-  //   }
-  // }
-  //   }
-  // .container-fluid {
-  //   height: calc(100% - 70vh);
-  //   background-color: $primary-color;
-  // .row {
-  //   .col {
-  //     text-align: center;
-  //     color: #000;
-  //     p {
-  //       text-align: center;
-  //     }
-  //     .counter-numbers {
-  //       font-size: $h2-font-size;
-  //       font-weight: 600;
-  //     }
-  //   }
-  // }
-  // }
-  //   @media screen and (max-width: 991px) {
-  //     height: auto;
-  //     > .container {
-  //       height: auto;
-  //       ul {
-  //         columns: 1;
-  //       }
-  //     }
-  //     .container-fluid {
-  //       height: auto;
-  //     }
-  //   }
-  // }
   #hero {
     background-color: #ffa534;
     background: url("../img/hero-banner-new.webp");
@@ -84,10 +7,15 @@
     .container {
       .row {
         padding: 0;
-        .col-12 {
+        .col-12:first-of-type {
           > * {
             margin-bottom: 2rem;
           }
+          :last-child {
+            margin-bottom: 0rem;
+          }
+        }
+        .col-12 {
           ul {
             columns: 2;
           }
@@ -177,6 +105,11 @@
       margin-bottom: 1rem;
     }
   }
+  #about-us {
+    p {
+      margin-bottom: 1rem;
+    }
+  }
   #how-it-works-top {
     background-color: $primary-color;
     color: #fff;
@@ -199,23 +132,54 @@
     }
   }
   #testimonials {
-    .card {
-      text-align: center;
-      img {
-        width: 100px;
-        height: 100px;
-        border-radius: 10rem;
-        margin: 1.5rem 0;
-      }
-      h4 {
-        color: grey;
-        margin-bottom: 1rem;
-      }
-      i {
-        color: #ffa534;
-      }
-      p {
-        margin-top: 1rem;
+    .row {
+      .col {
+        display: flex;
+        .card {
+          flex: content;
+          .card-person {
+            display: flex;
+            align-items: center;
+            .card-person-img {
+              img {
+                width: 100px;
+                height: 100px;
+                border-radius: 50%;
+                margin-right: 2rem;
+              }
+            }
+            .card-person-info {
+              h3 {
+                font-weight: 500;
+                font-size: $h6-font-size;
+              }
+              h4 {
+                font-weight: 300;
+                font-size: $h6-font-size;
+                color: grey;
+              }
+              .card-person-info-ratings {
+                color: #ffa534;
+              }
+            }
+          }
+          .card-quote {
+            display: flex;
+            justify-content: center;
+            margin: 1rem 0;
+            i {
+              color: $secondary-color;
+              margin: 0;
+              font-size: $h3-font-size;
+            }
+            p {
+              font-size: $h4-font-size;
+            }
+            .bi-quote:nth-of-type(2) {
+              transform: scale(-1, -1);
+            }
+          }
+        }
       }
     }
   }

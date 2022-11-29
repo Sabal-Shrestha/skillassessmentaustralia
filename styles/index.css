@@ -6,8 +6,11 @@
 #index #hero .container .row {
   padding: 0;
 }
-#index #hero .container .row .col-12 > * {
+#index #hero .container .row .col-12:first-of-type > * {
   margin-bottom: 2rem;
+}
+#index #hero .container .row .col-12:first-of-type :last-child {
+  margin-bottom: 0rem;
 }
 #index #hero .container .row .col-12 ul {
   -moz-columns: 2;
@@ -86,6 +89,9 @@
   text-align: center;
   margin-bottom: 1rem;
 }
+#index #about-us p {
+  margin-bottom: 1rem;
+}
 #index #how-it-works-top {
   background-color: #5c9dff;
   color: #fff;
@@ -105,24 +111,49 @@
   color: #fff;
   border-radius: 0px;
 }
-#index #testimonials .card {
-  text-align: center;
+#index #testimonials .row .col {
+  display: flex;
 }
-#index #testimonials .card img {
+#index #testimonials .row .col .card {
+  flex: content;
+}
+#index #testimonials .row .col .card .card-person {
+  display: flex;
+  align-items: center;
+}
+#index #testimonials .row .col .card .card-person .card-person-img img {
   width: 100px;
   height: 100px;
-  border-radius: 10rem;
-  margin: 1.5rem 0;
+  border-radius: 50%;
+  margin-right: 2rem;
 }
-#index #testimonials .card h4 {
+#index #testimonials .row .col .card .card-person .card-person-info h3 {
+  font-weight: 500;
+  font-size: clamp(1.6rem, 1.4vw, 2rem);
+}
+#index #testimonials .row .col .card .card-person .card-person-info h4 {
+  font-weight: 300;
+  font-size: clamp(1.6rem, 1.4vw, 2rem);
   color: grey;
-  margin-bottom: 1rem;
 }
-#index #testimonials .card i {
+#index #testimonials .row .col .card .card-person .card-person-info .card-person-info-ratings {
   color: #ffa534;
 }
-#index #testimonials .card p {
-  margin-top: 1rem;
+#index #testimonials .row .col .card .card-quote {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+}
+#index #testimonials .row .col .card .card-quote i {
+  color: #87ceeb;
+  margin: 0;
+  font-size: clamp(2rem, 1.7vw, 3.2rem);
+}
+#index #testimonials .row .col .card .card-quote p {
+  font-size: clamp(1.8rem, 1.5vw, 2.7rem);
+}
+#index #testimonials .row .col .card .card-quote .bi-quote:nth-of-type(2) {
+  transform: scale(-1, -1);
 }
 #index #index-services {
   text-align: center;
