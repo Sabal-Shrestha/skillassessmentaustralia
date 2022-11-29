@@ -80,12 +80,11 @@
   #hero {
     background-color: #ffa534;
     background: url("../img/hero-banner-new.webp");
-    padding-top: 0;
-    padding-bottom: 0;
-
+    padding: 0;
     .container {
-      padding: 5rem 0;
+      // padding: 5rem 0;
       .row {
+        padding: 0;
         ul {
           columns: 2;
         }
@@ -140,9 +139,8 @@
     }
     @media screen and (max-width: 991px) {
       .container {
-        padding: 0;
         ul {
-          columns: 1 !important ;
+          columns: 1;
         }
       }
     }

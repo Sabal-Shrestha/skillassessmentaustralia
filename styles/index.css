@@ -1,11 +1,10 @@
 #index #hero {
   background-color: #ffa534;
   background: url("../img/hero-banner-new.webp");
-  padding-top: 0;
-  padding-bottom: 0;
+  padding: 0;
 }
-#index #hero .container {
-  padding: 5rem 0;
+#index #hero .container .row {
+  padding: 0;
 }
 #index #hero .container .row ul {
   -moz-columns: 2;
@@ -57,12 +56,9 @@
   font-weight: 600;
 }
 @media screen and (max-width: 991px) {
-  #index #hero .container {
-    padding: 0;
-  }
   #index #hero .container ul {
-    -moz-columns: 1 !important;
-         columns: 1 !important;
+    -moz-columns: 1;
+         columns: 1;
   }
 }
 #index .call-to-action {
