@@ -1,55 +1,53 @@
 #index #hero {
-  padding: 0;
-  margin: 0;
-  height: 92.5vh;
+  background-color: #ffa534;
   background: url("../img/hero-banner-new.webp");
-  background-size: cover;
+  padding-top: 0;
+  padding-bottom: 0;
 }
-#index #hero > .container {
-  height: 70vh;
+#index #hero .container {
+  padding: 5rem 0;
 }
-#index #hero > .container ul {
+#index #hero .container .row ul {
   -moz-columns: 2;
        columns: 2;
 }
-#index #hero > .container .card {
+#index #hero .container .row .card {
   text-align: center;
   padding: 1rem;
-  padding-bottom: 0;
   border: none;
 }
-#index #hero > .container .card p {
+#index #hero .container .row .card p {
   color: #000;
   text-align: center;
   font-weight: 600;
   font-size: clamp(1.8rem, 1.5vw, 2.7rem);
 }
-#index #hero > .container .card .input-group {
+#index #hero .container .row .card .input-group {
   margin-top: 1rem;
 }
-#index #hero > .container .card .input-group .input-group-text {
+#index #hero .container .row .card .input-group .input-group-text {
   background-color: #fff;
   color: #5c9dff;
   border-radius: 0;
 }
-#index #hero > .container .card .input-group i {
+#index #hero .container .row .card .input-group i {
   font-size: clamp(1.6rem, 1.5vw, 1.8rem);
 }
-#index #hero > .container .card .input-group .form-control {
+#index #hero .container .row .card .input-group .form-control {
   font-size: clamp(1.6rem, 1.5vw, 1.8rem);
   border-radius: 0;
 }
-#index #hero > .container .card textarea {
+#index #hero .container .row .card textarea {
   resize: none;
   height: 8rem;
 }
 #index #hero .container-fluid {
-  height: calc(100% - 70vh);
   background-color: #5c9dff;
 }
 #index #hero .container-fluid .row .col {
   text-align: center;
   color: #fff;
+  padding: 3rem 0;
 }
 #index #hero .container-fluid .row .col p {
   text-align: center;
@@ -59,18 +57,12 @@
   font-weight: 600;
 }
 @media screen and (max-width: 991px) {
-  #index #hero {
-    height: auto;
+  #index #hero .container {
+    padding: 0;
   }
-  #index #hero > .container {
-    height: auto;
-  }
-  #index #hero > .container ul {
-    -moz-columns: 1;
-         columns: 1;
-  }
-  #index #hero .container-fluid {
-    height: auto;
+  #index #hero .container ul {
+    -moz-columns: 1 !important;
+         columns: 1 !important;
   }
 }
 #index .call-to-action {

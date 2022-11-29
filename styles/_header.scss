@@ -1,6 +1,7 @@
 header {
   background-color: $primary-color;
-  height: $header-height;
+  // height: $header-height;
+  height: auto;
   .navbar-toggler {
     border-color: #fff;
     .bi-list {
