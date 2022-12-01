@@ -47,7 +47,9 @@
   height: 8rem;
 }
 #index #hero .container-fluid {
-  background-color: #5c9dff;
+  background: url("../img/call-to-action.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 #index #hero .container-fluid .row .col {
   text-align: center;
@@ -79,7 +81,7 @@
   margin: 1rem 0;
 }
 #index .call-to-action {
-  background: url("../img/call-to-action.webp") 50% 50%;
+  background: url("../img/call-to-action.webp") 50% 80%;
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
