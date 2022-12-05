@@ -98,14 +98,15 @@
     }
   }
   .call-to-action {
-    background: url("../img/4882066.jpg") 50% 80%;
+    background: url("../img/hero-banner-new.webp") 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
-    text-align: center;
-    color: #fff;
-    p {
+    color: #000;
+    @media screen and (max-width: 991px) {
       text-align: center;
-      margin-bottom: 1rem;
+      p {
+        text-align: center;
+      }
     }
   }
   #about-us {
