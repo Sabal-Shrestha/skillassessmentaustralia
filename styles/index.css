@@ -1,6 +1,8 @@
 #index #hero {
   background-color: #ffa534;
   background: url("../img/hero-banner-new.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
   padding: 0;
 }
 #index #hero .container .row {
