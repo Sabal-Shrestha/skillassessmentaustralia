@@ -34,7 +34,7 @@
 }
 #index #hero .container .row .col-12 .card .input-group .input-group-text {
   background-color: #fff;
-  color: #5c9dff;
+  color: #a02202;
   border-radius: 0;
 }
 #index #hero .container .row .col-12 .card .input-group i {
@@ -76,7 +76,7 @@
   display: flex;
 }
 #index #why-us .row:nth-of-type(2) .col .card i {
-  color: #5c9dff;
+  color: #a02202;
   font-size: clamp(2.5rem, 2.3vw, 4.5rem);
 }
 #index #why-us .row:nth-of-type(2) .col .card h3 {
@@ -100,7 +100,7 @@
   margin-bottom: 1rem;
 }
 #index #how-it-works-top {
-  background-color: #5c9dff;
+  background-color: #a02202;
   color: #fff;
   padding-bottom: 0;
 }
@@ -108,7 +108,7 @@
   padding-top: 0;
 }
 #index #how-it-works-bottom .nav-link {
-  background-color: #5c9dff;
+  background-color: #a02202;
 }
 #index #how-it-works-bottom .nav-tabs .nav-link.active {
   background-color: #fff;
