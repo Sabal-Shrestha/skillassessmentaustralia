@@ -11,6 +11,14 @@
   if (d.head) d.head.appendChild(s);
 })(document, window, "Chatra");
 
+window.onscroll = function () {
+  if (window.scrollY > 30) {
+    document.getElementById("navbar").style.backgroundColor = "#840202";
+  } else {
+    document.getElementById("navbar").style.backgroundColor = "";
+  }
+};
+
 // whatsapp chatra
 const myTimeout = setTimeout(show, 20000000);
 function show() {

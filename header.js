@@ -1,7 +1,7 @@
 class MyHeader extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
-<header class="sticky-top d-lg-flex align-items-lg-center">
+<header class="sticky-top d-lg-flex align-items-lg-center" id="navbar">
 <div class="container">
   <nav class="navbar navbar-expand-lg">
         <a class="navbar-brand" href="index.html">Navbar</a>

@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;300;400;500;600;700&display=swap");
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css");
 header {
-  background-color: #840202;
   height: auto;
+  transition: background-color 0.5s ease-in-out;
 }
 header p {
   margin-bottom: 0;
@@ -213,11 +213,6 @@ img {
   padding: 2rem;
 }
 
-footer {
-  background: url("../img/footer.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-}
 footer p {
   margin-bottom: 0;
 }
@@ -366,6 +361,7 @@ footer #floating-whatsapp .whatsapp-card .card .card-footer .btn-all {
 }
 footer #contact-form {
   margin-top: 2rem;
+  background-color: #840202;
   background-size: cover;
   background-repeat: no-repeat;
   padding-top: 0;
@@ -408,6 +404,7 @@ footer #contact-form p i {
   margin-right: 0.7rem;
 }
 footer #useful-links {
+  background-color: #7c0000;
   color: #fff;
 }
 footer #copyright {

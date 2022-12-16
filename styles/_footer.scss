@@ -1,7 +1,7 @@
 footer {
-  background: url("../img/footer.png");
-  background-size: cover;
-  background-repeat: no-repeat;
+  // background: url("../img/footer.png");
+  // background-size: cover;
+  // background-repeat: no-repeat;
   p {
     margin-bottom: 0;
   }
@@ -153,7 +153,7 @@ footer {
 
   #contact-form {
     margin-top: 2rem;
-    // background-color: $primary-color;
+    background-color: $primary-color;
     // background: url("../img/footer.png");
     background-size: cover;
     background-repeat: no-repeat;
@@ -197,7 +197,7 @@ footer {
     }
   }
   #useful-links {
-    // background-color: $accent-color;
+    background-color: $accent-color;
     color: #fff;
   }
   #copyright {
