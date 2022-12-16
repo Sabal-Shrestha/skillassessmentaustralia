@@ -1,84 +1,132 @@
 @import "./variables";
+.sticky-top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
 #index {
+  // #hero {
+  //   background-color: #ffa534;
+  //   background: url("../img/hero-banner-new.webp");
+  //   background-repeat: no-repeat;
+  //   background-size: cover;
+  //   padding: 0;
+  //   .container {
+  //     .row {
+  //       padding: 0;
+  //       .col-12:first-of-type {
+  //         > * {
+  //           margin-bottom: 2rem;
+  //         }
+  //         :last-child {
+  //           margin-bottom: 0rem;
+  //         }
+  //       }
+  //       .col-12 {
+  //         ul {
+  //           columns: 2;
+  //         }
+  //         .card {
+  //           text-align: center;
+  //           padding: 1rem;
+  //           border: none;
+  //           p {
+  //             color: #000;
+  //             text-align: center;
+  //             font-weight: 600;
+  //             font-size: $h4-font-size;
+  //           }
+  //           .input-group {
+  //             margin-top: 1rem;
+  //             .input-group-text {
+  //               background-color: #fff;
+  //               color: $primary-color;
+  //               border-radius: 0;
+  //             }
+  //             i {
+  //               font-size: $p-font-size;
+  //             }
+  //             .form-control {
+  //               font-size: $p-font-size;
+  //               border-radius: 0;
+  //             }
+  //           }
+  //           textarea {
+  //             resize: none;
+  //             height: 8rem;
+  //           }
+  //         }
+  //       }
+  //     }
+  //   }
+  //   .container-fluid {
+  //     // background-color: $primary-color;
+  //     background: url("../img/call-to-action.webp");
+  //     background-size: cover;
+  //     background-repeat: no-repeat;
+  //     .row {
+  //       .col {
+  //         text-align: center;
+  //         color: #fff;
+  //         padding: 3rem 0;
+  //         p {
+  //           text-align: center;
+  //         }
+  //         .counter-numbers {
+  //           font-size: $h2-font-size;
+  //           font-weight: 600;
+  //         }
+  //       }
+  //     }
+  //   }
+  //   @media screen and (max-width: 991px) {
+  //     .container {
+  //       ul {
+  //         columns: 1;
+  //       }
+  //     }
+  //   }
+  // }
   #hero {
-    background-color: #ffa534;
-    background: url("../img/hero-banner-new.webp");
-    background-repeat: no-repeat;
+    background: url("../img/skill-assessment-new-hero-banner.webp");
     background-size: cover;
-    padding: 0;
-    .container {
-      .row {
-        padding: 0;
-        .col-12:first-of-type {
-          > * {
-            margin-bottom: 2rem;
-          }
-          :last-child {
-            margin-bottom: 0rem;
-          }
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+    span {
+      // color: $primary-color;
+    }
+    .card {
+      text-align: center;
+      padding: 1rem;
+      border: none;
+      p {
+        color: #000;
+        text-align: center;
+        font-weight: 600;
+        font-size: $h4-font-size;
+      }
+      .input-group {
+        margin-top: 1rem;
+        .input-group-text {
+          background-color: #fff;
+          color: $primary-color;
+          border-radius: 0;
         }
-        .col-12 {
-          ul {
-            columns: 2;
-          }
-          .card {
-            text-align: center;
-            padding: 1rem;
-            border: none;
-            p {
-              color: #000;
-              text-align: center;
-              font-weight: 600;
-              font-size: $h4-font-size;
-            }
-            .input-group {
-              margin-top: 1rem;
-              .input-group-text {
-                background-color: #fff;
-                color: $primary-color;
-                border-radius: 0;
-              }
-              i {
-                font-size: $p-font-size;
-              }
-              .form-control {
-                font-size: $p-font-size;
-                border-radius: 0;
-              }
-            }
-            textarea {
-              resize: none;
-              height: 8rem;
-            }
-          }
+        i {
+          font-size: $p-font-size;
+        }
+        .form-control {
+          font-size: $p-font-size;
+          border-radius: 0;
         }
       }
-    }
-    .container-fluid {
-      // background-color: $primary-color;
-      background: url("../img/call-to-action.webp");
-      background-size: cover;
-      background-repeat: no-repeat;
-      .row {
-        .col {
-          text-align: center;
-          color: #fff;
-          padding: 3rem 0;
-          p {
-            text-align: center;
-          }
-          .counter-numbers {
-            font-size: $h2-font-size;
-            font-weight: 600;
-          }
-        }
-      }
-    }
-    @media screen and (max-width: 991px) {
-      .container {
-        ul {
-          columns: 1;
-        }
+      textarea {
+        resize: none;
+        height: 8rem;
       }
     }
   }
@@ -137,54 +185,100 @@
       border-radius: 0px;
     }
   }
+  // #testimonials {
+  //   .row {
+  //     .col {
+  //       display: flex;
+  //       .card {
+  //         flex: content;
+  //         .card-person {
+  //           display: flex;
+  //           align-items: center;
+  //           .card-person-img {
+  //             img {
+  //               width: 100px;
+  //               height: 100px;
+  //               border-radius: 50%;
+  //               margin-right: 2rem;
+  //             }
+  //           }
+  //           .card-person-info {
+  //             h3 {
+  //               font-weight: 500;
+  //               font-size: $h6-font-size;
+  //             }
+  //             h4 {
+  //               font-weight: 300;
+  //               font-size: $h6-font-size;
+  //               color: grey;
+  //             }
+  //             .card-person-info-ratings {
+  //               color: #ffa534;
+  //             }
+  //           }
+  //         }
+  //         .card-quote {
+  //           display: flex;
+  //           justify-content: center;
+  //           margin: 1rem 0;
+  //           i {
+  //             color: $secondary-color;
+  //             margin: 0;
+  //             font-size: $h3-font-size;
+  //           }
+  //           p {
+  //             font-size: $h4-font-size;
+  //           }
+  //           .bi-quote:nth-of-type(2) {
+  //             transform: scale(-1, -1);
+  //           }
+  //         }
+  //       }
+  //     }
+  //   }
+  // }
   #testimonials {
-    .row {
-      .col {
-        display: flex;
-        .card {
-          flex: content;
-          .card-person {
-            display: flex;
-            align-items: center;
-            .card-person-img {
-              img {
-                width: 100px;
-                height: 100px;
-                border-radius: 50%;
-                margin-right: 2rem;
-              }
-            }
-            .card-person-info {
-              h3 {
-                font-weight: 500;
-                font-size: $h6-font-size;
-              }
-              h4 {
-                font-weight: 300;
-                font-size: $h6-font-size;
-                color: grey;
-              }
-              .card-person-info-ratings {
-                color: #ffa534;
-              }
-            }
-          }
-          .card-quote {
-            display: flex;
-            justify-content: center;
-            margin: 1rem 0;
-            i {
-              color: $secondary-color;
-              margin: 0;
-              font-size: $h3-font-size;
-            }
-            p {
-              font-size: $h4-font-size;
-            }
-            .bi-quote:nth-of-type(2) {
-              transform: scale(-1, -1);
-            }
-          }
+    .card {
+      background: linear-gradient(90deg, $primary-color 10%, #fff 10%);
+      position: relative;
+      height: 100%;
+      @media (width<=576px) {
+        background: #fff;
+      }
+      .bi-quote {
+        position: absolute;
+        top: 0%;
+        right: 10px;
+        font-size: clamp(5rem, 20vw, 20rem);
+        color: #f847473e;
+      }
+      hr {
+        width: 50%;
+        margin: 2rem auto;
+        color: $primary-color;
+      }
+      .col-md-2 {
+        img {
+          border-radius: 50%;
+          border: 3px solid #fff;
+        }
+      }
+      .col-md-10 {
+        h3 {
+          font-size: $h5-font-size;
+          color: $primary-color;
+          font-weight: 600;
+        }
+        h4 {
+          font-size: $h6-font-size;
+          color: grey;
+        }
+        .bi-star-fill {
+          color: #ffa534;
+          font-size: $h6-font-size;
+        }
+        p {
+          font-size: $h5-font-size;
         }
       }
     }

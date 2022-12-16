@@ -15,7 +15,7 @@
   color: #000;
   text-align: center;
   font-weight: 600;
-  font-size: clamp(1.8rem, 1.5vw, 2.7rem);
+  font-size: clamp(1.8rem, 1.6vw, 2.2rem);
 }
 #other-pages #banner .card .input-group {
   margin-top: 1rem;
@@ -26,10 +26,10 @@
   border-radius: 0;
 }
 #other-pages #banner .card .input-group i {
-  font-size: clamp(1.6rem, 1.5vw, 1.8rem);
+  font-size: clamp(1.8rem, 1.6vw, 2.2rem);
 }
 #other-pages #banner .card .input-group .form-control {
-  font-size: clamp(1.6rem, 1.5vw, 1.8rem);
+  font-size: clamp(1.8rem, 1.6vw, 2.2rem);
   border-radius: 0;
 }
 #other-pages #banner .card textarea {
@@ -46,8 +46,8 @@
   margin: 1.5rem 0;
 }
 #other-pages #anzsco-code table thead {
-  font-size: clamp(1.8rem, 1.5vw, 2.7rem);
+  font-size: clamp(1.8rem, 1.6vw, 2.2rem);
 }
 #other-pages #anzsco-code table tbody {
-  font-size: clamp(1.6rem, 1.5vw, 1.8rem);
+  font-size: clamp(1.8rem, 1.6vw, 2.2rem);
 }/*# sourceMappingURL=other-pages.css.map */

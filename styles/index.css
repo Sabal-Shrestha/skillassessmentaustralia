@@ -1,75 +1,48 @@
+.sticky-top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
 #index #hero {
-  background-color: #ffa534;
-  background: url("../img/hero-banner-new.webp");
-  background-repeat: no-repeat;
+  background: url("../img/skill-assessment-new-hero-banner.webp");
   background-size: cover;
-  padding: 0;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  color: #fff;
 }
-#index #hero .container .row {
-  padding: 0;
-}
-#index #hero .container .row .col-12:first-of-type > * {
-  margin-bottom: 2rem;
-}
-#index #hero .container .row .col-12:first-of-type :last-child {
-  margin-bottom: 0rem;
-}
-#index #hero .container .row .col-12 ul {
-  -moz-columns: 2;
-       columns: 2;
-}
-#index #hero .container .row .col-12 .card {
+#index #hero .card {
   text-align: center;
   padding: 1rem;
   border: none;
 }
-#index #hero .container .row .col-12 .card p {
+#index #hero .card p {
   color: #000;
   text-align: center;
   font-weight: 600;
-  font-size: clamp(1.8rem, 1.5vw, 2.7rem);
+  font-size: clamp(1.8rem, 1.6vw, 2.2rem);
 }
-#index #hero .container .row .col-12 .card .input-group {
+#index #hero .card .input-group {
   margin-top: 1rem;
 }
-#index #hero .container .row .col-12 .card .input-group .input-group-text {
+#index #hero .card .input-group .input-group-text {
   background-color: #fff;
   color: #840202;
   border-radius: 0;
 }
-#index #hero .container .row .col-12 .card .input-group i {
-  font-size: clamp(1.6rem, 1.5vw, 1.8rem);
+#index #hero .card .input-group i {
+  font-size: clamp(1.8rem, 1.6vw, 2.2rem);
 }
-#index #hero .container .row .col-12 .card .input-group .form-control {
-  font-size: clamp(1.6rem, 1.5vw, 1.8rem);
+#index #hero .card .input-group .form-control {
+  font-size: clamp(1.8rem, 1.6vw, 2.2rem);
   border-radius: 0;
 }
-#index #hero .container .row .col-12 .card textarea {
+#index #hero .card textarea {
   resize: none;
   height: 8rem;
-}
-#index #hero .container-fluid {
-  background: url("../img/call-to-action.webp");
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-#index #hero .container-fluid .row .col {
-  text-align: center;
-  color: #fff;
-  padding: 3rem 0;
-}
-#index #hero .container-fluid .row .col p {
-  text-align: center;
-}
-#index #hero .container-fluid .row .col .counter-numbers {
-  font-size: clamp(2.5rem, 2.3vw, 4.5rem);
-  font-weight: 600;
-}
-@media screen and (max-width: 991px) {
-  #index #hero .container ul {
-    -moz-columns: 1;
-         columns: 1;
-  }
 }
 #index #why-us .row:nth-of-type(2) .col {
   text-align: center;
@@ -77,7 +50,7 @@
 }
 #index #why-us .row:nth-of-type(2) .col .card i {
   color: #840202;
-  font-size: clamp(2.5rem, 2.3vw, 4.5rem);
+  font-size: clamp(2.5rem, 2.3vw, 5rem);
 }
 #index #why-us .row:nth-of-type(2) .col .card h3 {
   margin: 1rem 0;
@@ -118,49 +91,47 @@
   color: #fff;
   border-radius: 0px;
 }
-#index #testimonials .row .col {
-  display: flex;
+#index #testimonials .card {
+  background: linear-gradient(90deg, #840202 10%, #fff 10%);
+  position: relative;
+  height: 100%;
 }
-#index #testimonials .row .col .card {
-  flex: content;
+@media (width <= 576px) {
+  #index #testimonials .card {
+    background: #fff;
+  }
 }
-#index #testimonials .row .col .card .card-person {
-  display: flex;
-  align-items: center;
+#index #testimonials .card .bi-quote {
+  position: absolute;
+  top: 0%;
+  right: 10px;
+  font-size: clamp(5rem, 20vw, 20rem);
+  color: rgba(248, 71, 71, 0.2431372549);
 }
-#index #testimonials .row .col .card .card-person .card-person-img img {
-  width: 100px;
-  height: 100px;
+#index #testimonials .card hr {
+  width: 50%;
+  margin: 2rem auto;
+  color: #840202;
+}
+#index #testimonials .card .col-md-2 img {
   border-radius: 50%;
-  margin-right: 2rem;
+  border: 3px solid #fff;
 }
-#index #testimonials .row .col .card .card-person .card-person-info h3 {
-  font-weight: 500;
-  font-size: clamp(1.6rem, 1.4vw, 2rem);
+#index #testimonials .card .col-md-10 h3 {
+  font-size: clamp(1.5rem, 1.3vw, 2rem);
+  color: #840202;
+  font-weight: 600;
 }
-#index #testimonials .row .col .card .card-person .card-person-info h4 {
-  font-weight: 300;
-  font-size: clamp(1.6rem, 1.4vw, 2rem);
+#index #testimonials .card .col-md-10 h4 {
+  font-size: clamp(1.3rem, 1.1vw, 1.8rem);
   color: grey;
 }
-#index #testimonials .row .col .card .card-person .card-person-info .card-person-info-ratings {
+#index #testimonials .card .col-md-10 .bi-star-fill {
   color: #ffa534;
+  font-size: clamp(1.3rem, 1.1vw, 1.8rem);
 }
-#index #testimonials .row .col .card .card-quote {
-  display: flex;
-  justify-content: center;
-  margin: 1rem 0;
-}
-#index #testimonials .row .col .card .card-quote i {
-  color: #87ceeb;
-  margin: 0;
-  font-size: clamp(2rem, 1.7vw, 3.2rem);
-}
-#index #testimonials .row .col .card .card-quote p {
-  font-size: clamp(1.8rem, 1.5vw, 2.7rem);
-}
-#index #testimonials .row .col .card .card-quote .bi-quote:nth-of-type(2) {
-  transform: scale(-1, -1);
+#index #testimonials .card .col-md-10 p {
+  font-size: clamp(1.5rem, 1.3vw, 2rem);
 }
 #index #index-services {
   text-align: center;
@@ -187,5 +158,5 @@
   border-radius: 50%;
 }
 #index #faq .accordion-item .accordion-header .accordion-button {
-  font-size: clamp(1.8rem, 1.5vw, 2.7rem);
+  font-size: clamp(1.8rem, 1.6vw, 2.2rem);
 }/*# sourceMappingURL=index.css.map */
