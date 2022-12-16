@@ -91,6 +91,42 @@
   color: #fff;
   border-radius: 0px;
 }
+#index #testimonials .card {
+  background: linear-gradient(90deg, #840202 10%, #fff 10%);
+  height: 100%;
+  position: relative;
+}
+#index #testimonials .card .bi-quote {
+  color: rgba(255, 0, 0, 0.1215686275);
+  position: absolute;
+  font-size: clamp(10rem, 20vw, 20rem);
+  bottom: 0;
+  right: 0;
+}
+#index #testimonials .card .card-body {
+  text-align: center;
+}
+#index #testimonials .card .card-body img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+#index #testimonials .card .card-body h3 {
+  font-size: clamp(1.8rem, 1.6vw, 2.2rem);
+}
+#index #testimonials .card .card-body h4 {
+  font-size: clamp(1.3rem, 1.1vw, 1.8rem);
+  color: grey;
+}
+#index #testimonials .card .card-body .ratings {
+  text-align: center;
+  font-size: clamp(1.3rem, 1.1vw, 1.8rem);
+  color: #ffa534;
+  line-height: 1;
+}
+#index #testimonials .card .card-body hr {
+  color: #840202;
+}
 #index #index-services {
   text-align: center;
 }
@@ -116,5 +152,5 @@
   border-radius: 50%;
 }
 #index #faq .accordion-item .accordion-header .accordion-button {
-  font-size: clamp(1.8rem, 1.6vw, 2.2rem);
+  font-size: clamp(2rem, 1.9vw, 3.2rem);
 }/*# sourceMappingURL=index.css.map */

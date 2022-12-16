@@ -96,9 +96,7 @@
     align-items: center;
     height: 100vh;
     color: #fff;
-    span {
-      // color: $primary-color;
-    }
+
     .card {
       text-align: center;
       padding: 1rem;
@@ -185,58 +183,7 @@
       border-radius: 0px;
     }
   }
-  // #testimonials {
-  //   .row {
-  //     .col {
-  //       display: flex;
-  //       .card {
-  //         flex: content;
-  //         .card-person {
-  //           display: flex;
-  //           align-items: center;
-  //           .card-person-img {
-  //             img {
-  //               width: 100px;
-  //               height: 100px;
-  //               border-radius: 50%;
-  //               margin-right: 2rem;
-  //             }
-  //           }
-  //           .card-person-info {
-  //             h3 {
-  //               font-weight: 500;
-  //               font-size: $h6-font-size;
-  //             }
-  //             h4 {
-  //               font-weight: 300;
-  //               font-size: $h6-font-size;
-  //               color: grey;
-  //             }
-  //             .card-person-info-ratings {
-  //               color: #ffa534;
-  //             }
-  //           }
-  //         }
-  //         .card-quote {
-  //           display: flex;
-  //           justify-content: center;
-  //           margin: 1rem 0;
-  //           i {
-  //             color: $secondary-color;
-  //             margin: 0;
-  //             font-size: $h3-font-size;
-  //           }
-  //           p {
-  //             font-size: $h4-font-size;
-  //           }
-  //           .bi-quote:nth-of-type(2) {
-  //             transform: scale(-1, -1);
-  //           }
-  //         }
-  //       }
-  //     }
-  //   }
-  // }
+
   // #testimonials {
   //   .card {
   //     background: linear-gradient(90deg, $primary-color 10%, #fff 10%);
@@ -259,6 +206,8 @@
   //     }
   //     .col-md-2 {
   //       img {
+  //         width: calmp(40px, 100vw, 120px);
+  //         height: calmp(40px, 100vw, 120px);
   //         border-radius: 50%;
   //         border: 3px solid #fff;
   //       }
@@ -283,6 +232,44 @@
   //     }
   //   }
   // }
+  #testimonials {
+    .card {
+      background: linear-gradient(90deg, $primary-color 10%, #fff 10%);
+      height: 100%;
+      position: relative;
+      .bi-quote {
+        color: #ff00001f;
+        position: absolute;
+        font-size: clamp(10rem, 20vw, 20rem);
+        bottom: 0;
+        right: 0;
+      }
+      .card-body {
+        text-align: center;
+        img {
+          width: 100px;
+          height: 100px;
+          border-radius: 50%;
+        }
+        h3 {
+          font-size: $h4-font-size;
+        }
+        h4 {
+          font-size: $h6-font-size;
+          color: grey;
+        }
+        .ratings {
+          text-align: center;
+          font-size: $h6-font-size;
+          color: #ffa534;
+          line-height: 1;
+        }
+        hr {
+          color: $primary-color;
+        }
+      }
+    }
+  }
   #index-services {
     text-align: center;
     .carousel {
@@ -314,7 +301,7 @@
   }
   #faq {
     .accordion-item .accordion-header .accordion-button {
-      font-size: $h4-font-size;
+      font-size: $h3-font-size;
     }
   }
 }
