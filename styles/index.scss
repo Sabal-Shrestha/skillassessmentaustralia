@@ -183,56 +183,13 @@
       border-radius: 0px;
     }
   }
-
-  // #testimonials {
-  //   .card {
-  //     background: linear-gradient(90deg, $primary-color 10%, #fff 10%);
-  //     position: relative;
-  //     height: 100%;
-  //     @media (width<=576px) {
-  //       background: #fff;
-  //     }
-  //     .bi-quote {
-  //       position: absolute;
-  //       top: 0%;
-  //       right: 10px;
-  //       font-size: clamp(5rem, 20vw, 20rem);
-  //       color: #f847473e;
-  //     }
-  //     hr {
-  //       width: 50%;
-  //       margin: 2rem auto;
-  //       color: $primary-color;
-  //     }
-  //     .col-md-2 {
-  //       img {
-  //         width: calmp(40px, 100vw, 120px);
-  //         height: calmp(40px, 100vw, 120px);
-  //         border-radius: 50%;
-  //         border: 3px solid #fff;
-  //       }
-  //     }
-  //     .col-md-10 {
-  //       h3 {
-  //         font-size: $h5-font-size;
-  //         color: $primary-color;
-  //         font-weight: 600;
-  //       }
-  //       h4 {
-  //         font-size: $h6-font-size;
-  //         color: grey;
-  //       }
-  //       .bi-star-fill {
-  //         color: #ffa534;
-  //         font-size: $h6-font-size;
-  //       }
-  //       p {
-  //         font-size: $h5-font-size;
-  //       }
-  //     }
-  //   }
-  // }
   #testimonials {
+    .swiper-slide {
+      height: auto;
+    }
+    .swiper-pagination-bullet-active {
+      background-color: $primary-color;
+    }
     .card {
       background: linear-gradient(90deg, $primary-color 10%, #fff 10%);
       height: 100%;

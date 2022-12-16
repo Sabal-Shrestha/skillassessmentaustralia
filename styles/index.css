@@ -91,6 +91,12 @@
   color: #fff;
   border-radius: 0px;
 }
+#index #testimonials .swiper-slide {
+  height: auto;
+}
+#index #testimonials .swiper-pagination-bullet-active {
+  background-color: #840202;
+}
 #index #testimonials .card {
   background: linear-gradient(90deg, #840202 10%, #fff 10%);
   height: 100%;

@@ -77,18 +77,20 @@ img {
 }
 .btn-all {
   text-decoration: none;
-  border: 1px solid #fff;
+  border: 1px solid $primary-color;
   display: inline-block;
-  padding: 0.7rem 2rem;
+  padding: 0.9rem 2rem;
   border-radius: 0;
   letter-spacing: 1px;
-  color: #000;
+  color: $primary-color;
   background-color: #fff;
   margin: 1rem 0 0;
-  transition: background-color 0.5s ease-in-out, color 0.5s;
+  transition: background-color 0.5s ease-in-out, color 0.5s,
+    border-color 0.5s ease-in-out;
   &:hover {
     color: #fff;
     background-color: $primary-color;
+    border-color: #fff;
   }
 }
 
