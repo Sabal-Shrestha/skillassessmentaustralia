@@ -74,6 +74,8 @@ h6 {
 img {
   max-width: 100%;
   height: auto;
+  width: clamp(100px, 100%, 800px);
+  height: clamp(100px, 100%, 800px);
 }
 .btn-all {
   text-decoration: none;

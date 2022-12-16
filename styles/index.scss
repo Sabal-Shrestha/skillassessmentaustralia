@@ -204,8 +204,10 @@
       .card-body {
         text-align: center;
         img {
-          width: 100px;
-          height: 100px;
+          // width: 100px;
+          // height: 100px;
+          width: clamp(80px, 100%, 120px);
+          height: clamp(80px, 100%, 120px);
           border-radius: 50%;
         }
         h3 {
