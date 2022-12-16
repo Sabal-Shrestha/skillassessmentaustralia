@@ -1,5 +1,5 @@
 footer {
-  // background: url("../img/footer.png");
+  // background: url("../img/footer-try.png");
   // background-size: cover;
   // background-repeat: no-repeat;
   p {
@@ -143,18 +143,17 @@ footer {
         }
       }
     }
-  }
-
-  @media (min-width: 992px) {
-    .whatsapp-card .card-body .text-box {
-      width: 60%;
+    @media (min-width: 992px) {
+      .whatsapp-card .card-body .text-box {
+        width: 60%;
+      }
     }
   }
 
   #contact-form {
     margin-top: 2rem;
     background-color: $primary-color;
-    // background: url("../img/footer.png");
+    // background: url("../img/footer-new.png") 50% 70%;
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 0;

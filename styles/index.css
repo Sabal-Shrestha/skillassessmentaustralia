@@ -91,48 +91,6 @@
   color: #fff;
   border-radius: 0px;
 }
-#index #testimonials .card {
-  background: linear-gradient(90deg, #840202 10%, #fff 10%);
-  position: relative;
-  height: 100%;
-}
-@media (width <= 576px) {
-  #index #testimonials .card {
-    background: #fff;
-  }
-}
-#index #testimonials .card .bi-quote {
-  position: absolute;
-  top: 0%;
-  right: 10px;
-  font-size: clamp(5rem, 20vw, 20rem);
-  color: rgba(248, 71, 71, 0.2431372549);
-}
-#index #testimonials .card hr {
-  width: 50%;
-  margin: 2rem auto;
-  color: #840202;
-}
-#index #testimonials .card .col-md-2 img {
-  border-radius: 50%;
-  border: 3px solid #fff;
-}
-#index #testimonials .card .col-md-10 h3 {
-  font-size: clamp(1.5rem, 1.3vw, 2rem);
-  color: #840202;
-  font-weight: 600;
-}
-#index #testimonials .card .col-md-10 h4 {
-  font-size: clamp(1.3rem, 1.1vw, 1.8rem);
-  color: grey;
-}
-#index #testimonials .card .col-md-10 .bi-star-fill {
-  color: #ffa534;
-  font-size: clamp(1.3rem, 1.1vw, 1.8rem);
-}
-#index #testimonials .card .col-md-10 p {
-  font-size: clamp(1.5rem, 1.3vw, 2rem);
-}
 #index #index-services {
   text-align: center;
 }
