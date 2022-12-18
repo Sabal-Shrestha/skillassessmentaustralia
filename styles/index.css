@@ -3,6 +3,14 @@
   top: 0;
   left: 0;
   right: 0;
+  background-color: rgba(255, 255, 255, 0);
+}
+@media (width <= 991px) {
+  .sticky-top:hover {
+    position: -webkit-sticky;
+    position: sticky;
+    background-color: #840202;
+  }
 }
 
 #index #hero {
@@ -13,6 +21,11 @@
   align-items: center;
   height: 100vh;
   color: #fff;
+}
+@media (width <= 991px) {
+  #index #hero {
+    height: auto;
+  }
 }
 #index #hero .card {
   text-align: center;
@@ -56,10 +69,13 @@
   margin: 1rem 0;
 }
 #index .call-to-action {
-  background: url("../img/hero-banner-new.webp") 50% 50%;
+  background: url("../img/cta-1.webp") 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
-  color: #000;
+  color: #fff;
+}
+#index .call-to-action .col-lg-8 > * {
+  margin-bottom: 1rem;
 }
 @media screen and (max-width: 991px) {
   #index .call-to-action {
@@ -69,8 +85,13 @@
     text-align: center;
   }
 }
-#index #about-us p {
-  margin-bottom: 1rem;
+#index #about-us .col-4 {
+  margin: 1rem 0;
+}
+#index #about-us .col-4 p {
+  text-align: center;
+  font-weight: 600;
+  font-size: clamp(2rem, 1.9vw, 3.2rem);
 }
 #index #how-it-works-top {
   background-color: #840202;
@@ -158,5 +179,14 @@
   border-radius: 50%;
 }
 #index #faq .accordion-item .accordion-header .accordion-button {
-  font-size: clamp(2rem, 1.9vw, 3.2rem);
+  font-size: clamp(1.8rem, 1.6vw, 2.2rem);
+}
+#index #faq .accordion-item .accordion-header .accordion-button:focus {
+  box-shadow: none;
+}
+#index #faq .accordion-item .accordion-header .accordion-button:not(.collapsed) {
+  color: #e84343;
+}
+#index #faq .accordion-item .accordion-body {
+  border-left: 4px solid #e84343;
 }/*# sourceMappingURL=index.css.map */

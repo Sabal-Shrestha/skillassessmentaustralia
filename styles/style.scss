@@ -85,13 +85,15 @@ img {
   border-radius: 0;
   letter-spacing: 1px;
   color: $primary-color;
-  background-color: #fff;
   margin: 1rem 0 0;
-  transition: background-color 0.5s ease-in-out, color 0.5s,
-    border-color 0.5s ease-in-out;
+  background: linear-gradient(to right, $accent-color 50%, white 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all 0.5s ease-out;
+
   &:hover {
     color: #fff;
-    background-color: $primary-color;
+    background-position: left bottom;
     border-color: #fff;
   }
 }
@@ -130,5 +132,8 @@ img {
 }
 .card-body {
   padding: 2rem;
+}
+.card:has(form) {
+  box-shadow: none;
 }
 @import "./footer";
