@@ -72,7 +72,7 @@
   background: url("../img/cta-1.webp") 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
-  color: #fff;
+  color: #000;
 }
 #index .call-to-action .col-lg-8 > * {
   margin-bottom: 1rem;

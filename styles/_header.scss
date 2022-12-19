@@ -55,6 +55,9 @@ header {
     border-radius: 0;
     border: 1px solid $primary-color;
     padding: 1rem 2rem;
+    .dropdown-item:active {
+      background-color: $secondary-color;
+    }
   }
 
   @media (max-width: 991px) {

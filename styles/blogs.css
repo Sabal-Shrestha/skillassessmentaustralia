@@ -1,15 +1,42 @@
-#blogs .card {
-  position: relative;
+#blogs section {
+  padding: 0;
+}
+#blogs h1 {
+  text-align: center;
+}
+#blogs .card .card-body > * {
+  margin-bottom: 1rem;
+}
+#blogs .card .card-body .blog-author p {
+  font-size: clamp(1.5rem, 1.3vw, 2rem);
+  color: grey;
 }
 #blogs .card .card-body .blog-author i {
   margin-left: 1rem;
+}
+#blogs .card .card-body > p {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 #single-post {
   text-align: center;
 }
+#single-post .blog-author p {
+  margin-top: 1rem;
+  font-size: clamp(1.5rem, 1.3vw, 2rem);
+  color: grey;
+}
 #single-post .blog-author i {
   margin-left: 1rem;
+}
+#single-post article {
+  text-align: center;
+}
+#single-post article > * {
+  margin-bottom: 1rem;
 }
 #single-post article h2,
 #single-post article h3,
@@ -17,4 +44,33 @@
 #single-post article h5,
 #single-post article h6 {
   text-align: start;
+}
+#single-post .section-title h3 {
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  text-align: center;
+  margin: auto;
+  padding-bottom: 0;
+  margin-bottom: 2rem;
+}
+#single-post .section-title h3:before {
+  background-color: #840202;
+  content: "";
+  display: block;
+  height: 2px;
+  width: 75px;
+  margin-bottom: 7px;
+}
+#single-post .section-title h3:after {
+  background-color: #840202;
+  content: "";
+  display: block;
+  margin-left: auto;
+  height: 2px;
+  width: 75px;
+  margin-top: 5px;
 }/*# sourceMappingURL=blogs.css.map */

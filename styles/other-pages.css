@@ -1,8 +1,17 @@
 #other-pages #banner {
-  background: url("../img/services-new.png") 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background: #840202;
   color: #fff;
+  padding-bottom: 0;
+}
+@media (width >= 991px) {
+  #other-pages #banner {
+    background: url("../img/services-new.webp") 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #other-pages #banner .card {
+    box-shadow: 0 3px 9px 3px rgba(169, 184, 200, 0.1490196078);
+  }
 }
 #other-pages #banner .card {
   text-align: center;
@@ -49,4 +58,10 @@
 }
 #other-pages #anzsco-code table tbody {
   font-size: clamp(1.8rem, 1.6vw, 2.2rem);
+}
+#other-pages #contact-us {
+  background: url("../img/character.webp") 50% 90%;
+  background-size: 75vh;
+  background-repeat: no-repeat;
+  height: 100vh;
 }/*# sourceMappingURL=other-pages.css.map */

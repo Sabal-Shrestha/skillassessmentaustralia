@@ -59,6 +59,9 @@ header .dropdown-menu {
   border: 1px solid #840202;
   padding: 1rem 2rem;
 }
+header .dropdown-menu .dropdown-item:active {
+  background-color: #e84343;
+}
 @media (max-width: 991px) {
   header {
     height: auto;
@@ -107,7 +110,7 @@ p {
 
 a {
   text-decoration: none;
-  color: #840202;
+  color: #e84343;
   transition: color 0.5s ease-in-out;
 }
 a:hover {
@@ -190,7 +193,6 @@ img {
   padding-bottom: 0;
   margin-bottom: 2rem;
 }
-
 .section-title h2:before {
   background-color: #840202;
   content: "";
@@ -199,7 +201,6 @@ img {
   width: 75px;
   margin-bottom: 7px;
 }
-
 .section-title h2:after {
   background-color: #840202;
   content: "";
@@ -213,7 +214,7 @@ img {
 .card {
   border-radius: 0;
   border: none;
-  box-shadow: 0 3px 9px 3px rgba(169, 184, 200, 0.1490196078);
+  box-shadow: 0 0px 9px 3px rgba(169, 184, 200, 0.1490196078);
 }
 
 .card-body {

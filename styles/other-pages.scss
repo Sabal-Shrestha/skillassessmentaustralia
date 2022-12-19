@@ -1,11 +1,17 @@
 @import "./variables";
 #other-pages {
   #banner {
-    // background: url("../img/gradient-geometric-background_23-2148808998.webp");
-    background: url("../img/services-new.png") 50% 50%;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background: $primary-color;
     color: #fff;
+    padding-bottom: 0;
+    @media (width>=991px) {
+      background: url("../img/services-new.webp") 50% 50%;
+      background-size: cover;
+      background-repeat: no-repeat;
+      .card {
+        box-shadow: 0 3px 9px 3px #a9b8c826;
+      }
+    }
     .card {
       text-align: center;
       padding: 1rem;
@@ -61,6 +67,10 @@
       }
     }
   }
-  // #contact-us {
-  // }
+  #contact-us {
+    background: url("../img/character.webp") 50% 90%;
+    background-size: 75vh;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
 }
