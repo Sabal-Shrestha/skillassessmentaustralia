@@ -181,6 +181,36 @@ img {
   border-color: #fff;
 }
 
+.card:has(form) {
+  text-align: center;
+  border: none;
+}
+.card:has(form) p {
+  color: #000;
+  text-align: center;
+  font-weight: 600;
+  font-size: clamp(1.8rem, 1.6vw, 2.2rem);
+}
+.card:has(form) .input-group {
+  margin-top: 1rem;
+}
+.card:has(form) .input-group .input-group-text {
+  background-color: #fff;
+  color: #840202;
+  border-radius: 0;
+}
+.card:has(form) .input-group i {
+  font-size: clamp(1.8rem, 1.6vw, 2.2rem);
+}
+.card:has(form) .input-group .form-control {
+  font-size: clamp(1.8rem, 1.6vw, 2.2rem);
+  border-radius: 0;
+}
+.card:has(form) textarea {
+  resize: none;
+  height: 8rem;
+}
+
 .section-title h2 {
   font-weight: 700;
   letter-spacing: 1px;
@@ -378,35 +408,6 @@ footer #contact-form {
   background-repeat: no-repeat;
   padding-top: 0;
   color: #fff;
-}
-footer #contact-form .card {
-  text-align: center;
-  border: none;
-}
-footer #contact-form .card p {
-  color: #000;
-  text-align: center;
-  font-weight: 600;
-  font-size: clamp(1.8rem, 1.6vw, 2.2rem);
-}
-footer #contact-form .card .input-group {
-  margin-top: 1rem;
-}
-footer #contact-form .card .input-group .input-group-text {
-  background-color: #fff;
-  color: #840202;
-  border-radius: 0;
-}
-footer #contact-form .card .input-group i {
-  font-size: clamp(1.8rem, 1.6vw, 2.2rem);
-}
-footer #contact-form .card .input-group .form-control {
-  font-size: clamp(1.8rem, 1.6vw, 2.2rem);
-  border-radius: 0;
-}
-footer #contact-form .card textarea {
-  resize: none;
-  height: 8rem;
 }
 footer #contact-form p {
   margin-top: 1rem;

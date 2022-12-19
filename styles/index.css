@@ -27,35 +27,6 @@
     height: auto;
   }
 }
-#index #hero .card {
-  text-align: center;
-  border: none;
-}
-#index #hero .card p {
-  color: #000;
-  text-align: center;
-  font-weight: 600;
-  font-size: clamp(1.8rem, 1.6vw, 2.2rem);
-}
-#index #hero .card .input-group {
-  margin-top: 1rem;
-}
-#index #hero .card .input-group .input-group-text {
-  background-color: #fff;
-  color: #840202;
-  border-radius: 0;
-}
-#index #hero .card .input-group i {
-  font-size: clamp(1.8rem, 1.6vw, 2.2rem);
-}
-#index #hero .card .input-group .form-control {
-  font-size: clamp(1.8rem, 1.6vw, 2.2rem);
-  border-radius: 0;
-}
-#index #hero .card textarea {
-  resize: none;
-  height: 8rem;
-}
 #index #why-us .row:nth-of-type(2) .col {
   text-align: center;
   display: flex;

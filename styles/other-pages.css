@@ -13,36 +13,6 @@
     box-shadow: 0 3px 9px 3px rgba(169, 184, 200, 0.1490196078);
   }
 }
-#other-pages #banner .card {
-  text-align: center;
-  padding-bottom: 0;
-  border: none;
-}
-#other-pages #banner .card p {
-  color: #000;
-  text-align: center;
-  font-weight: 600;
-  font-size: clamp(1.8rem, 1.6vw, 2.2rem);
-}
-#other-pages #banner .card .input-group {
-  margin-top: 1rem;
-}
-#other-pages #banner .card .input-group .input-group-text {
-  background-color: #fff;
-  color: #840202;
-  border-radius: 0;
-}
-#other-pages #banner .card .input-group i {
-  font-size: clamp(1.8rem, 1.6vw, 2.2rem);
-}
-#other-pages #banner .card .input-group .form-control {
-  font-size: clamp(1.8rem, 1.6vw, 2.2rem);
-  border-radius: 0;
-}
-#other-pages #banner .card textarea {
-  resize: none;
-  height: 8rem;
-}
 #other-pages #breadcrumbs {
   padding: 0;
 }
