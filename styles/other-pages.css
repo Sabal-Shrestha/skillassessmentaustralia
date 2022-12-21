@@ -5,11 +5,29 @@
 }
 @media (width >= 991px) {
   #other-pages #banner {
-    background: url("../img/services-new.webp") 50% 50%;
+    background: url("../img/new-other-banner.png") 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
   }
   #other-pages #banner .card {
+    box-shadow: 0 3px 9px 3px rgba(169, 184, 200, 0.1490196078);
+  }
+}
+#other-pages #new-banner {
+  background: #002480;
+  color: #fff;
+  padding-bottom: 0;
+}
+@media (width >= 991px) {
+  #other-pages #new-banner {
+    background: url("../img/new-serviecs.png") 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+  }
+  #other-pages #new-banner .card {
     box-shadow: 0 3px 9px 3px rgba(169, 184, 200, 0.1490196078);
   }
 }
