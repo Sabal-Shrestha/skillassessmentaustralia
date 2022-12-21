@@ -43,7 +43,8 @@
     }
   }
   .call-to-action {
-    background: url("../img/new-cta.jpg") 50% 50%;
+    // background: url("../img/new-cta.jpg") 50% 50%;
+    background-color: $primary-color;
     background-size: cover;
     background-repeat: no-repeat;
     color: #fff;
@@ -100,7 +101,7 @@
       height: 100%;
       position: relative;
       .bi-quote {
-        color: #ff00001f;
+        color: #094efe1f;
         position: absolute;
         font-size: clamp(10rem, 20vw, 20rem);
         bottom: 0;

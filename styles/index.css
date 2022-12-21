@@ -39,7 +39,7 @@
   margin: 1rem 0;
 }
 #index .call-to-action {
-  background: url("../img/new-cta.jpg") 50% 50%;
+  background-color: #002480;
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
@@ -94,7 +94,7 @@
   position: relative;
 }
 #index #testimonials .card .bi-quote {
-  color: rgba(255, 0, 0, 0.1215686275);
+  color: rgba(9, 78, 254, 0.1215686275);
   position: absolute;
   font-size: clamp(10rem, 20vw, 20rem);
   bottom: 0;
