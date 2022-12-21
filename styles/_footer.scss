@@ -165,11 +165,15 @@ footer {
     }
   }
   #useful-links {
-    background-color: $accent-color;
+    // background-color: $accent-color;
+    background-color: $image-color;
     color: #fff;
   }
   #copyright {
-    background-color: #252525;
+    // background-color: #252525;
+    // background-color: $image-color;
+    background-color: $primary-color;
+
     p {
       color: #fff;
       text-align: center;
