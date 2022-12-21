@@ -96,35 +96,7 @@ img {
     border-color: #fff;
   }
 }
-.card:has(form) {
-  text-align: center;
-  border: none;
-  p {
-    color: #000;
-    text-align: center;
-    font-weight: 600;
-    font-size: $h4-font-size;
-  }
-  .input-group {
-    margin-top: 1rem;
-    .input-group-text {
-      background-color: #fff;
-      color: $primary-color;
-      border-radius: 0;
-    }
-    i {
-      font-size: $p-font-size;
-    }
-    .form-control {
-      font-size: $p-font-size;
-      border-radius: 0;
-    }
-  }
-  textarea {
-    resize: none;
-    height: 8rem;
-  }
-}
+
 .section-title {
   h2 {
     font-weight: 700;
@@ -163,6 +135,33 @@ img {
   padding: 2rem;
 }
 .card:has(form) {
+  text-align: center;
   box-shadow: none;
+  border: none;
+  p {
+    color: #000;
+    text-align: center;
+    font-weight: 600;
+    font-size: $h4-font-size;
+  }
+  .input-group {
+    margin-top: 1rem;
+    .input-group-text {
+      background-color: #fff;
+      color: $primary-color;
+      border-radius: 0;
+    }
+    i {
+      font-size: $p-font-size;
+    }
+    .form-control {
+      font-size: $p-font-size;
+      border-radius: 0;
+    }
+  }
+  textarea {
+    resize: none;
+    height: 8rem;
+  }
 }
 @import "./footer";

@@ -33,4 +33,10 @@
   background-size: 75vh;
   background-repeat: no-repeat;
   height: 100vh;
+}
+@media (width <= 991px) {
+  #other-pages #contact-us {
+    height: auto;
+    background: none;
+  }
 }/*# sourceMappingURL=other-pages.css.map */
