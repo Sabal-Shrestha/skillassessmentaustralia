@@ -13,22 +13,6 @@
       }
     }
   }
-  #new-banner {
-    background: $primary-color;
-    color: #fff;
-    padding-bottom: 0;
-    @media (width>=991px) {
-      background: url("../img/new-serviecs.png") 50% 50%;
-      background-size: cover;
-      background-repeat: no-repeat;
-      height: 100vh;
-      display: flex;
-      align-items: center;
-      .card {
-        box-shadow: 0 3px 9px 3px #a9b8c826;
-      }
-    }
-  }
   #breadcrumbs {
     padding: 0;
   }
