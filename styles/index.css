@@ -9,12 +9,12 @@
   .sticky-top:hover {
     position: -webkit-sticky;
     position: sticky;
-    background-color: #840202;
+    background-color: #002480;
   }
 }
 
 #index #hero {
-  background: url("../img/skill-assessment-new-hero-banner.webp");
+  background: url("../img/new-landing.png ");
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
@@ -32,17 +32,17 @@
   display: flex;
 }
 #index #why-us .row:nth-of-type(2) .col .card i {
-  color: #840202;
+  color: #002480;
   font-size: clamp(2.5rem, 2.3vw, 5rem);
 }
 #index #why-us .row:nth-of-type(2) .col .card h3 {
   margin: 1rem 0;
 }
 #index .call-to-action {
-  background: url("../img/cta-1.webp") 50% 50%;
+  background: url("../img/new-cta.jpg") 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
-  color: #000;
+  color: #fff;
 }
 #index .call-to-action .col-lg-8 > * {
   margin-bottom: 1rem;
@@ -64,7 +64,7 @@
   font-size: clamp(2rem, 1.9vw, 3.2rem);
 }
 #index #how-it-works-top {
-  background-color: #840202;
+  background-color: #002480;
   color: #fff;
   padding-bottom: 0;
 }
@@ -72,7 +72,7 @@
   padding-top: 0;
 }
 #index #how-it-works-bottom .nav-link {
-  background-color: #840202;
+  background-color: #002480;
 }
 #index #how-it-works-bottom .nav-tabs .nav-link.active {
   background-color: #fff;
@@ -86,10 +86,10 @@
   height: auto;
 }
 #index #testimonials .swiper-pagination-bullet-active {
-  background-color: #840202;
+  background-color: #002480;
 }
 #index #testimonials .card {
-  background: linear-gradient(90deg, #840202 10%, #fff 10%);
+  background: linear-gradient(90deg, #002480 10%, #fff 10%);
   height: 100%;
   position: relative;
 }
@@ -122,7 +122,7 @@
   line-height: 1;
 }
 #index #testimonials .card .card-body hr {
-  color: #840202;
+  color: #002480;
 }
 #index #index-services {
   text-align: center;
@@ -155,8 +155,8 @@
   box-shadow: none;
 }
 #index #faq .accordion-item .accordion-header .accordion-button:not(.collapsed) {
-  color: #e84343;
+  color: #094efe;
 }
 #index #faq .accordion-item .accordion-body {
-  border-left: 4px solid #e84343;
+  border-left: 4px solid #094efe;
 }/*# sourceMappingURL=index.css.map */

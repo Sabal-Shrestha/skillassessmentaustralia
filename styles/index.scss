@@ -14,7 +14,7 @@
 }
 #index {
   #hero {
-    background: url("../img/skill-assessment-new-hero-banner.webp");
+    background: url("../img/new-landing.png ");
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -43,10 +43,10 @@
     }
   }
   .call-to-action {
-    background: url("../img/cta-1.webp") 50% 50%;
+    background: url("../img/new-cta.jpg") 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
-    color: #000;
+    color: #fff;
     .col-lg-8 > * {
       margin-bottom: 1rem;
     }

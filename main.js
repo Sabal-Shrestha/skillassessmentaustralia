@@ -13,7 +13,7 @@
 
 window.onscroll = function () {
   if (window.scrollY > 30) {
-    document.getElementById("navbar").style.backgroundColor = "#840202";
+    document.getElementById("navbar").style.backgroundColor = "#002480";
   } else {
     document.getElementById("navbar").style.backgroundColor = "";
   }
