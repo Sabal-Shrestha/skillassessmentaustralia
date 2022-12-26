@@ -27,16 +27,4 @@
 }
 #other-pages #anzsco-code table tbody {
   font-size: clamp(1.8rem, 1.6vw, 2.2rem);
-}
-#other-pages #contact-us {
-  background: url("../img/character.webp") 50% 90%;
-  background-size: 75vh;
-  background-repeat: no-repeat;
-  height: 100vh;
-}
-@media (width <= 991px) {
-  #other-pages #contact-us {
-    height: auto;
-    background: none;
-  }
 }/*# sourceMappingURL=other-pages.css.map */

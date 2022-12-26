@@ -36,14 +36,4 @@
       }
     }
   }
-  #contact-us {
-    background: url("../img/character.webp") 50% 90%;
-    background-size: 75vh;
-    background-repeat: no-repeat;
-    height: 100vh;
-    @media (width <= 991px) {
-      height: auto;
-      background: none;
-    }
-  }
 }
