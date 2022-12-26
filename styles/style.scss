@@ -31,7 +31,6 @@ p {
   font-weight: 300;
   font-size: $p-font-size;
   line-height: 1.5;
-  margin: 0;
 }
 a {
   text-decoration: none;
@@ -161,6 +160,21 @@ img {
   textarea {
     resize: none;
     height: 8rem;
+  }
+}
+.call-to-action {
+  background-color: $primary-color;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  .col-lg-8 > * {
+    margin-bottom: 1rem;
+  }
+  @media screen and (max-width: 991px) {
+    text-align: center;
+    p {
+      text-align: center;
+    }
   }
 }
 @import "./footer";

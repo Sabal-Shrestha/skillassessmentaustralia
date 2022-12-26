@@ -38,23 +38,6 @@
 #index #why-us .row:nth-of-type(2) .col .card h3 {
   margin: 1rem 0;
 }
-#index .call-to-action {
-  background-color: #002480;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-}
-#index .call-to-action .col-lg-8 > * {
-  margin-bottom: 1rem;
-}
-@media screen and (max-width: 991px) {
-  #index .call-to-action {
-    text-align: center;
-  }
-  #index .call-to-action p {
-    text-align: center;
-  }
-}
 #index #about-us .col-4 {
   margin: 1rem 0;
 }
@@ -67,6 +50,9 @@
   background-color: #002480;
   color: #fff;
   padding-bottom: 0;
+}
+#index #how-it-works-top p {
+  margin: 0;
 }
 #index #how-it-works-bottom {
   padding-top: 0;

@@ -98,7 +98,6 @@ p {
   font-weight: 300;
   font-size: clamp(1.8rem, 1.6vw, 2.2rem);
   line-height: 1.5;
-  margin: 0;
 }
 
 a {
@@ -243,6 +242,24 @@ img {
 .card:has(form) textarea {
   resize: none;
   height: 8rem;
+}
+
+.call-to-action {
+  background-color: #002480;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+.call-to-action .col-lg-8 > * {
+  margin-bottom: 1rem;
+}
+@media screen and (max-width: 991px) {
+  .call-to-action {
+    text-align: center;
+  }
+  .call-to-action p {
+    text-align: center;
+  }
 }
 
 footer p {

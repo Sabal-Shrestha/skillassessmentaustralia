@@ -145,9 +145,10 @@ class MyFooter extends HTMLElement {
               <li><a href="cdr-report-writing.html">CDR Report Writing</a></li>
               <li><a href="career-episode.html">Career Episodes</a></li>
               <li><a href="summary-statement.html">Summary Statement</a></li>
-              <li><a href="cpd.html">CPD</a></li>
+              <li><a href="cdr-report-review.html">CDR Report Review</a></li>
+              <li><a href="stage-2-cdr-writing.html">Stage 2 CDR Writing</a></li>
               <li><a href="acs-rpl.html">ACS RPL Report</a></li>
-              <li><a href="ka02.html">KA02 Report</a></li>
+              <li><a href="trade-recognition-australia.html">Trade Recognition Australia</a></li>
             </ul>
           </div>
           <div class="col">

@@ -53,9 +53,14 @@ class MyHeader extends HTMLElement {
                 >
               </li>
               <li>
-                <a class="dropdown-item" href="cpd.html"
-                  >CPD</a
+                <a class="dropdown-item" href="cdr-report-review.html"
+                  >CDR Report Review</a
                 >
+              </li>
+              <li>
+              <a class="dropdown-item" href="stage-2-cdr-writing.html"
+                >Stage 2 CDR Writing</a
+              >
               </li>
               <li>
                 <a class="dropdown-item" href="acs-rpl.html"
@@ -63,9 +68,9 @@ class MyHeader extends HTMLElement {
                 >
               </li>
               <li>
-                <a class="dropdown-item" href="ka02.html"
-                  >KA02 Report</a
-                >
+              <a class="dropdown-item" href="trade-recognition-australia.html"
+                >Trade Recognition Australia</a
+              >
               </li>
             </ul>
           </li>

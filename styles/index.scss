@@ -42,22 +42,6 @@
       }
     }
   }
-  .call-to-action {
-    // background: url("../img/new-cta.jpg") 50% 50%;
-    background-color: $primary-color;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: #fff;
-    .col-lg-8 > * {
-      margin-bottom: 1rem;
-    }
-    @media screen and (max-width: 991px) {
-      text-align: center;
-      p {
-        text-align: center;
-      }
-    }
-  }
   #about-us {
     .col-4 {
       margin: 1rem 0;
@@ -72,6 +56,9 @@
     background-color: $primary-color;
     color: #fff;
     padding-bottom: 0;
+    p {
+      margin: 0;
+    }
   }
   #how-it-works-bottom {
     padding-top: 0;
