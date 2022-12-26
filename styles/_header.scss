@@ -42,13 +42,6 @@ header {
     .btn-all {
       margin: 0;
       padding: 0.4rem 2rem;
-      background-color: #fff;
-      color: $primary-color;
-      border-color: $secondary-color;
-      &:hover {
-        background-color: $accent-color;
-        color: #fff;
-      }
     }
   }
   .dropdown-menu {

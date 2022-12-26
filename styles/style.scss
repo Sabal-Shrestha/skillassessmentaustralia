@@ -79,14 +79,14 @@ img {
 }
 .btn-all {
   text-decoration: none;
-  border: 1px solid $primary-color;
+  border: 1px solid $image-color;
   display: inline-block;
   padding: 0.9rem 2rem;
   border-radius: 0;
   letter-spacing: 1px;
-  color: $primary-color;
+  color: $image-color;
   margin: 1rem 0 0;
-  background: linear-gradient(to right, $accent-color 50%, white 50%);
+  background: linear-gradient(to right, $image-color 50%, white 50%);
   background-size: 200% 100%;
   background-position: right bottom;
   transition: all 0.5s ease-out;
@@ -96,7 +96,6 @@ img {
     border-color: #fff;
   }
 }
-
 .section-title {
   h2 {
     font-weight: 700;

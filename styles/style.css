@@ -46,13 +46,6 @@ header .nav-item .nav-link:hover::before {
 header .nav-item .btn-all {
   margin: 0;
   padding: 0.4rem 2rem;
-  background-color: #fff;
-  color: #002480;
-  border-color: #094efe;
-}
-header .nav-item .btn-all:hover {
-  background-color: #001751;
-  color: #fff;
 }
 header .dropdown-menu {
   border-radius: 0;
@@ -163,14 +156,14 @@ img {
 
 .btn-all {
   text-decoration: none;
-  border: 1px solid #002480;
+  border: 1px solid #ef5b00;
   display: inline-block;
   padding: 0.9rem 2rem;
   border-radius: 0;
   letter-spacing: 1px;
-  color: #002480;
+  color: #ef5b00;
   margin: 1rem 0 0;
-  background: linear-gradient(to right, #001751 50%, white 50%);
+  background: linear-gradient(to right, #ef5b00 50%, white 50%);
   background-size: 200% 100%;
   background-position: right bottom;
   transition: all 0.5s ease-out;

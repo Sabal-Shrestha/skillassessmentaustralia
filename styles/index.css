@@ -82,6 +82,9 @@
   color: #fff;
   border-radius: 0px;
 }
+#index #how-it-works-bottom .nav-tabs .nav-link p {
+  text-align: center;
+}
 #index #index-services {
   text-align: center;
 }

@@ -18,8 +18,6 @@ window.onscroll = function () {
     document.getElementById("navbar").style.backgroundColor = "";
   }
 };
-
-// whatsapp chatra
 const myTimeout = setTimeout(show, 20000000);
 function show() {
   document.getElementById("whatsappShow").style.cssText = `
@@ -35,3 +33,22 @@ function closeWhatsapp() {
   transition:opacity 600ms, visibility 600ms;
 `;
 }
+var tabChange = function () {
+  var tabs = $(".nav-tabs > button");
+  var active = tabs.filter(".active");
+  var next = active.next("button").length
+    ? active.next("button")
+    : tabs.filter(":first-child");
+  next.tab("show");
+};
+var tabCycle = setInterval(tabChange, 2000);
+$(function () {
+  $(".nav-tabs button").click(function (e) {
+    e.preventDefault();
+    clearInterval(tabCycle);
+    $(this).tab("show");
+    // setTimeout(function () {
+    //   tabCycle = setInterval(tabChange, 2000);
+    // }, 2000);
+  });
+});
