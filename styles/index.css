@@ -118,7 +118,7 @@
 }
 #index #testimonials .card .card-body h4 {
   font-size: clamp(1.3rem, 1.1vw, 1.8rem);
-  color: grey;
+  color: #595959;
 }
 #index #testimonials .card .card-body .ratings {
   text-align: center;
