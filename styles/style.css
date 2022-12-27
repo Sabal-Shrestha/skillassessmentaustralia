@@ -250,6 +250,10 @@ img {
   background-repeat: no-repeat;
   color: #fff;
 }
+.call-to-action img {
+  width: clamp(100px, 100%, 500px);
+  height: clamp(100px, 100%, 500px);
+}
 .call-to-action .col-lg-8 > * {
   margin-bottom: 1rem;
 }

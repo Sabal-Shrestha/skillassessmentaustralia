@@ -167,6 +167,10 @@ img {
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
+  img {
+    width: clamp(100px, 100%, 500px);
+    height: clamp(100px, 100%, 500px);
+  }
   .col-lg-8 > * {
     margin-bottom: 1rem;
   }
