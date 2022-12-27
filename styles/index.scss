@@ -43,12 +43,19 @@
     }
   }
   #about-us {
-    .col-4 {
-      margin: 1rem 0;
-      p {
-        text-align: center;
-        font-weight: 600;
-        font-size: $h3-font-size;
+    .row {
+      align-items: center;
+      img {
+        width: clamp(100px, 100%, 400px);
+        height: clamp(100px, 100%, 400px);
+      }
+      .col-4 {
+        margin: 1rem 0;
+        p {
+          text-align: center;
+          font-weight: 600;
+          font-size: $h3-font-size;
+        }
       }
     }
   }

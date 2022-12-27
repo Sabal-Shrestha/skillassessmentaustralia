@@ -38,10 +38,17 @@
 #index #why-us .row:nth-of-type(2) .col .card h3 {
   margin: 1rem 0;
 }
-#index #about-us .col-4 {
+#index #about-us .row {
+  align-items: center;
+}
+#index #about-us .row img {
+  width: clamp(100px, 100%, 400px);
+  height: clamp(100px, 100%, 400px);
+}
+#index #about-us .row .col-4 {
   margin: 1rem 0;
 }
-#index #about-us .col-4 p {
+#index #about-us .row .col-4 p {
   text-align: center;
   font-weight: 600;
   font-size: clamp(2rem, 1.9vw, 3.2rem);
