@@ -9,6 +9,7 @@ class MyFooter extends HTMLElement {
           onclick="show()"
           id="btnID"
           class="whatsapp-btn"
+          aria-labelledby="Opens Whatsapp Popup"
         >
           <i class="bi-whatsapp"></i>
         </button>
