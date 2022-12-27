@@ -149,8 +149,8 @@ h6 {
 img {
   max-width: 100%;
   height: auto;
-  width: clamp(100px, 100%, 800px);
-  height: clamp(100px, 100%, 800px);
+  width: clamp(100px, 100%, 500px);
+  height: clamp(100px, 100%, 500px);
 }
 
 .btn-all {
