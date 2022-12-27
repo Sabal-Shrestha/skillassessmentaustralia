@@ -166,12 +166,12 @@ class MyFooter extends HTMLElement {
           <div class="col-md-12 col-lg-6">
             <h4>Recent Blogs</h4>
             <ul>
-            <li><a href="">Why does Engineers choose us for CDR Report Writing? </a></li>
-            <li><a href="">Why does Engineers choose us for CDR Report Writing? </a></li>
-            <li><a href="">Why does Engineers choose us for CDR Report Writing? </a></li>
-            <li><a href="">Why does Engineers choose us for CDR Report Writing? </a></li>
-            <li><a href="">Why does Engineers choose us for CDR Report Writing? </a></li>
-            <li><a href="">Why does Engineers choose us for CDR Report Writing? </a></li>
+            <li><a href="/">Why does Engineers choose us for CDR Report Writing?</a></li>
+            <li><a href="/">Why does Engineers choose us for CDR Report Writing?</a></li>
+            <li><a href="/">Why does Engineers choose us for CDR Report Writing?</a></li>
+            <li><a href="/">Why does Engineers choose us for CDR Report Writing?</a></li>
+            <li><a href="/">Why does Engineers choose us for CDR Report Writing?</a></li>
+            <li><a href="/">Why does Engineers choose us for CDR Report Writing?</a></li>
             </ul>
           </div>
         </div>
