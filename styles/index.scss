@@ -90,75 +90,52 @@
       }
     }
   }
-  // #testimonial {
-  //   .col-5 {
-  //     background: linear-gradient(
-  //       90deg,
-  //       #fff 48%,
-  //       $primary-color 48%,
-  //       $primary-color 52%,
-  //       #fff 52%
-  //     );
-  //   }
-  //   .about {
-  //     background-color: #fff;
-  //   }
-  //   img {
-  //     width: 150px;
-  //     height: 150px;
-  //     border-radius: 50%;
-  //   }
-  //   .bi-star-fill {
-  //     color: #ffa534;
-  //   }
-  // }
-
-  // #testimonials {
-  //   .swiper-slide {
-  //     height: auto;
-  //   }
-  //   .swiper-pagination-bullet-active {
-  //     background-color: $primary-color;
-  //   }
-  //   .card {
-  //     background: linear-gradient(90deg, $primary-color 7%, #fff 7%);
-  //     height: 100%;
-  //     position: relative;
-  //     .bi-quote {
-  //       color: #094efe1f;
-  //       position: absolute;
-  //       font-size: clamp(10rem, 20vw, 20rem);
-  //       bottom: 0;
-  //       right: 0;
-  //     }
-  //     .card-body {
-  //       text-align: center;
-  //       img {
-  //         // width: 100px;
-  //         // height: 100px;
-  //         width: clamp(80px, 100%, 120px);
-  //         height: clamp(80px, 100%, 120px);
-  //         border-radius: 50%;
-  //       }
-  //       h3 {
-  //         font-size: $h4-font-size;
-  //       }
-  //       h4 {
-  //         font-size: $h6-font-size;
-  //         color: grey;
-  //       }
-  //       .ratings {
-  //         text-align: center;
-  //         font-size: $h6-font-size;
-  //         color: #ffa534;
-  //         line-height: 1;
-  //       }
-  //       hr {
-  //         color: $primary-color;
-  //       }
-  //     }
-  //   }
-  // }
+  #testimonials {
+    .swiper-slide {
+      height: auto;
+    }
+    .swiper-pagination-bullet-active {
+      background-color: $primary-color;
+    }
+    .card {
+      background: linear-gradient(90deg, $primary-color 7%, #fff 7%);
+      height: 100%;
+      position: relative;
+      .bi-quote {
+        color: #094efe1f;
+        position: absolute;
+        font-size: clamp(10rem, 20vw, 20rem);
+        bottom: 0;
+        right: 0;
+      }
+      .card-body {
+        text-align: center;
+        img {
+          // width: 100px;
+          // height: 100px;
+          width: clamp(80px, 100%, 120px);
+          height: clamp(80px, 100%, 120px);
+          border-radius: 50%;
+        }
+        h3 {
+          font-size: $h4-font-size;
+        }
+        h4 {
+          font-size: $h6-font-size;
+          color: grey;
+        }
+        .ratings {
+          text-align: center;
+          font-size: $h6-font-size;
+          color: #ffa534;
+          line-height: 1;
+        }
+        hr {
+          color: $primary-color;
+        }
+      }
+    }
+  }
   #index-services {
     text-align: center;
     .carousel {

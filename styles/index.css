@@ -82,6 +82,48 @@
 #index #how-it-works-bottom .nav-tabs .nav-link p {
   text-align: center;
 }
+#index #testimonials .swiper-slide {
+  height: auto;
+}
+#index #testimonials .swiper-pagination-bullet-active {
+  background-color: #002480;
+}
+#index #testimonials .card {
+  background: linear-gradient(90deg, #002480 7%, #fff 7%);
+  height: 100%;
+  position: relative;
+}
+#index #testimonials .card .bi-quote {
+  color: rgba(9, 78, 254, 0.1215686275);
+  position: absolute;
+  font-size: clamp(10rem, 20vw, 20rem);
+  bottom: 0;
+  right: 0;
+}
+#index #testimonials .card .card-body {
+  text-align: center;
+}
+#index #testimonials .card .card-body img {
+  width: clamp(80px, 100%, 120px);
+  height: clamp(80px, 100%, 120px);
+  border-radius: 50%;
+}
+#index #testimonials .card .card-body h3 {
+  font-size: clamp(1.8rem, 1.6vw, 2.2rem);
+}
+#index #testimonials .card .card-body h4 {
+  font-size: clamp(1.3rem, 1.1vw, 1.8rem);
+  color: grey;
+}
+#index #testimonials .card .card-body .ratings {
+  text-align: center;
+  font-size: clamp(1.3rem, 1.1vw, 1.8rem);
+  color: #ffa534;
+  line-height: 1;
+}
+#index #testimonials .card .card-body hr {
+  color: #002480;
+}
 #index #index-services {
   text-align: center;
 }
