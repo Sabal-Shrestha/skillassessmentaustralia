@@ -62,6 +62,10 @@
   }
   #how-it-works-bottom {
     padding-top: 0;
+    img {
+      width: clamp(100px, 100%, 400px);
+      height: clamp(100px, 100%, 400px);
+    }
     .nav-link {
       background-color: $primary-color;
     }
