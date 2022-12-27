@@ -87,7 +87,7 @@ class MyHeader extends HTMLElement {
             <a class="nav-link" href="contact.html">Contact</a>
           </li>
           <li class="nav-item">
-            <a class="btn-all" type="button" onclick="Chatra('openChat', true)"><i class="bi-wechat"> </i> Chat</a>
+            <button class="btn-all" onclick="Chatra('openChat', true)" aria-labelledby="Opens ChatBot"><i class="bi-wechat"> </i> Chat</button>
           </li>
         </ul>
       </div>
