@@ -6,10 +6,8 @@
   right: 0;
   background-color: #ffffff00;
   @media (width<=991px) {
-    &:hover {
-      position: sticky;
-      background-color: $primary-color;
-    }
+    position: sticky;
+    background-color: $primary-color;
   }
 }
 #index {

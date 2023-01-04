@@ -11,6 +11,9 @@ header p {
 header .navbar-brand {
   color: #fff;
 }
+header .navbar-brand img {
+  width: clamp(50px, 100vw, 170px);
+}
 header .navbar-toggler {
   border-color: #fff;
 }

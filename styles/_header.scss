@@ -7,6 +7,9 @@ header {
   }
   .navbar-brand {
     color: #fff;
+    img {
+      width: clamp(50px, 100vw, 170px);
+    }
   }
   .navbar-toggler {
     border-color: #fff;
