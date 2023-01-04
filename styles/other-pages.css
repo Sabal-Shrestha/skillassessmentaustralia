@@ -1,3 +1,4 @@
+@charset "UTF-8";
 #other-pages #banner {
   background: #002480;
   color: #fff;
@@ -19,12 +20,67 @@
 #other-pages #services .row {
   align-items: center;
 }
-#other-pages #pricing table {
-  margin: 1.5rem 0;
+#other-pages #pricing .row .card .card-body {
+  text-align: center;
+}
+#other-pages #pricing .row .card .card-body p {
+  text-align: center;
+}
+#other-pages #pricing .row .card .card-body h3 {
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+#other-pages #pricing .row .card .card-body > p:first-of-type {
+  color: grey;
+  font-size: clamp(1.3rem, 1.1vw, 1.8rem);
+  margin-bottom: 2.5rem;
+}
+#other-pages #pricing .row .card .card-body .card-price p {
+  margin-bottom: 0;
+}
+#other-pages #pricing .row .card .card-body .card-price p:first-of-type {
+  font-size: clamp(1.3rem, 1.1vw, 1.8rem);
+  font-weight: 500;
+}
+#other-pages #pricing .row .card .card-body .card-price p:nth-of-type(2) {
+  font-size: clamp(1.8rem, 1.6vw, 2.2rem);
+  font-weight: 700;
+}
+#other-pages #pricing .row .card .card-body .card-price p:nth-of-type(2) span {
+  font-size: clamp(2.5rem, 2.3vw, 5rem);
+}
+#other-pages #pricing .row .card .card-body .card-price p:last-of-type {
+  font-size: clamp(1.3rem, 1.1vw, 1.8rem);
+}
+#other-pages #pricing .row .card .card-body a {
+  margin: 3rem 0;
+}
+#other-pages #pricing .row .card .card-body a + p {
+  font-size: clamp(1.3rem, 1.1vw, 1.8rem);
+  text-align: start;
+  color: grey;
+}
+#other-pages #pricing .row .card .card-body ul {
+  text-align: start;
+}
+#other-pages #pricing .row .card .card-body ul li {
+  list-style-type: thumbs;
+  padding-left: 0;
+  margin-left: 0;
+  font-size: clamp(1.3rem, 1.1vw, 1.8rem);
+}
+#other-pages #pricing .row .card .card-body ul li::marker {
+  color: #094efe;
 }
 #other-pages #anzsco-code table thead {
   font-size: clamp(1.8rem, 1.6vw, 2.2rem);
 }
 #other-pages #anzsco-code table tbody {
   font-size: clamp(1.8rem, 1.6vw, 2.2rem);
+}
+
+@counter-style thumbs {
+  system: cyclic;
+  symbols: "✓";
+  suffix: " ";
 }/*# sourceMappingURL=other-pages.css.map */

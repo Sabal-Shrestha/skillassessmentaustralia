@@ -22,8 +22,63 @@
     }
   }
   #pricing {
-    table {
-      margin: 1.5rem 0;
+    .row {
+      .card {
+        .card-body {
+          text-align: center;
+          p {
+            text-align: center;
+          }
+          h3 {
+            font-weight: 500;
+            margin-bottom: 2rem;
+          }
+          > p:first-of-type {
+            color: grey;
+            font-size: $h6-font-size;
+            margin-bottom: 2.5rem;
+          }
+          .card-price {
+            p {
+              margin-bottom: 0;
+              &:first-of-type {
+                font-size: $h6-font-size;
+                font-weight: 500;
+              }
+              &:nth-of-type(2) {
+                font-size: $h4-font-size;
+                font-weight: 700;
+                span {
+                  font-size: $h2-font-size;
+                }
+              }
+              &:last-of-type {
+                font-size: $h6-font-size;
+              }
+            }
+          }
+          a {
+            margin: 3rem 0;
+            & + p {
+              font-size: $h6-font-size;
+              text-align: start;
+              color: grey;
+            }
+          }
+          ul {
+            text-align: start;
+            li {
+              list-style-type: thumbs;
+              padding-left: 0;
+              margin-left: 0;
+              font-size: $h6-font-size;
+              &::marker {
+                color: $secondary-color;
+              }
+            }
+          }
+        }
+      }
     }
   }
   #anzsco-code {
@@ -36,4 +91,9 @@
       }
     }
   }
+}
+@counter-style thumbs {
+  system: cyclic;
+  symbols: "\2713";
+  suffix: " ";
 }
