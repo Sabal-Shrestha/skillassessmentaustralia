@@ -5,7 +5,7 @@ class MyHeader extends HTMLElement {
 <div class="container">
   <nav class="navbar navbar-expand-lg">
         <a class="navbar-brand" href="index.html">
-          <img src="./img/Skill Assessment Australia-logo-6.svg"/>
+          <img src="./img/Skill Assessment Australia-logo-7.svg"/>
         </a>
         <button
           class="navbar-toggler"
